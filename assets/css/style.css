@@ -150,6 +150,46 @@ header {
     align-items: center;
 }
 
+/* Styling cta video section of index.html */
+
+.cta-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hog-video {
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+}
+
+.cta-aside {
+    max-width: 150px;
+    height: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .cta-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-aside {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hog-video {
+        max-width: 275px;
+        /* height: auto;
+        object-fit: contain; */
+    }
+}
+
 /* Styling footer */
 
 footer {
