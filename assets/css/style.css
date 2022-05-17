@@ -86,6 +86,12 @@ header {
     header {
         padding: 0 2%;
     }
+    #navbar-logo {
+        max-height: 2rem;
+    }
+    .nav-links > li {
+        margin-left: 1rem;
+    }
     
 }
 
