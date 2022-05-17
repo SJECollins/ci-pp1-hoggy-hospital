@@ -101,6 +101,22 @@ header {
     left: 10%;
 }
 
+/* Styling about section on index.html */
+
+.about-container {
+    min-height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.about-box {
+    text-align: justify;
+    max-width: 350px;
+}
+
 /* Styling footer */
 
 footer {
