@@ -21,6 +21,12 @@ h1, h2, h3 {
     padding: 1em 0;
 }
 
+h1 {
+    padding: 0;
+    color: white;
+    font-size: 5rem;
+}
+
 /* Remove default styling for links */
 
 a {
@@ -48,6 +54,7 @@ header {
     padding: 0 10%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .nav-links > li {
@@ -69,6 +76,29 @@ header {
         padding: 0 2%;
     }
     
+}
+
+/* Styling for hero image and heading */
+
+.hero-outer {
+    position: relative;
+}
+
+#home-hero {
+    background-image: url("/assets/media/index-hero-hog.webp");
+}
+
+.hero-image {
+    height: 600px;
+    width: 100%;
+    background: center center / cover no-repeat;
+}
+
+.hero-text > h1 {
+    max-width: 25%;
+    position: absolute;
+    bottom: 47.5%;
+    left: 10%;
 }
 
 /* Styling footer */
