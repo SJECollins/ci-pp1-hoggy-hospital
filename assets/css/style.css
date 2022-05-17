@@ -118,10 +118,8 @@ header {
 .hero-text {
     max-width: 25%;
     position: absolute;
-    bottom: 47.5%;
+    top: 200px;
     left: 10%;
-    padding-top: 20px;
-    padding-right: 10px;
 }
 
 @media screen and (max-width: 500px) {
