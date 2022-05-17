@@ -217,6 +217,42 @@ header {
     }
 }
 
+/* Styling intro section of help.html */
+
+.help-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.help-intro-left {
+    max-width: 500px;
+    height: auto;
+}
+
+.help-intro-left > p {
+    padding: 1rem 0;
+    text-align: justify;
+}
+
+.help-intro-right > img {
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+@media screen (max-width: 500px) {
+    .help-intro-left {
+        max-width: 300px;
+    }
+    .help-intro-right > img {
+        max-width: 300px;
+    }
+}
+
 /* Styling footer */
 
 footer {
