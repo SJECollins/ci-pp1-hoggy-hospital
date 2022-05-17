@@ -244,13 +244,29 @@ header {
     border-radius: 10px;
 }
 
-@media screen (max-width: 500px) {
-    .help-intro-left {
-        max-width: 300px;
-    }
-    .help-intro-right > img {
-        max-width: 300px;
-    }
+/* Styling how to help section of help.html */
+
+#help-how {
+    min-height: 300px;
+    width: 100%;
+    background-color: #f2ecd2;
+    padding-bottom: 2em;
+}
+
+.how-box > img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.how-wrapper {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 1em;
 }
 
 /* Styling footer */
