@@ -207,7 +207,7 @@ header {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .hog-video {
         max-width: 275px;
     }
@@ -235,4 +235,10 @@ footer a {
 
 footer a:hover {
     color: #78a51a;
+}
+
+@media screen and (max-width: 500px) {
+    footer a {
+        padding: 0 0.5rem;
+    }
 }
