@@ -25,6 +25,17 @@ h1 {
     padding: 0;
     color: white;
     font-size: 5rem;
+
+    animation: fade-in-text ease-in 2s;
+}
+
+@keyframes fade-in-text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Remove default styling for links */
@@ -94,11 +105,19 @@ header {
     background: center center / cover no-repeat;
 }
 
-.hero-text > h1 {
+.hero-text {
     max-width: 25%;
     position: absolute;
     bottom: 47.5%;
     left: 10%;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .hero-text > h1 {
+        font-size: 3rem;
+    }
 }
 
 /* Styling about section on index.html */
@@ -185,8 +204,6 @@ header {
 @media screen and (max-width: 450px) {
     .hog-video {
         max-width: 275px;
-        /* height: auto;
-        object-fit: contain; */
     }
 }
 
