@@ -117,6 +117,37 @@ header {
     max-width: 350px;
 }
 
+/* Styling why help section of index.html */
+
+#why-help {
+    min-height: 600px;
+    width: 100%;
+    background: url("/assets/media/why-help-hog.webp") center center / cover no-repeat fixed;
+    margin-top: 1.5rem;
+}
+
+#why-help > h2 {
+    color: white;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.reasons-bg {
+    background-color: rgba(242, 236,210, 0.7);
+    width: 300px;
+    max-height: 400px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
 /* Styling footer */
 
 footer {
