@@ -6,10 +6,15 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: Raleway, Verdana, sans-serif;
     font-size: 1rem;
     background-color: #e3e9e5;
+    height: 100%;
 }
 
 h1, h2, h3 {
@@ -398,12 +403,20 @@ button:hover {
     border-radius: 10px;
 }
 
+/* Styling received.html */
+
+#thank-you p {
+    text-align: center;
+}
+
 /* Styling footer */
 
 footer {
     height: 5rem;
     background-color: #1a1a1a;
     text-align: center;
+    position: sticky;
+    top: 100vh;
 }
 
 .footer-socials > li {
