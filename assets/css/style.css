@@ -105,6 +105,10 @@ header {
     background-image: url("/assets/media/index-hero-hog.webp");
 }
 
+#help-hero {
+    background-image: url("/assets/media/help-hero-hog.webp");
+}
+
 .hero-image {
     height: 600px;
     width: 100%;
