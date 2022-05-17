@@ -389,6 +389,10 @@ button:hover {
     border: 1px solid #1a1a1a;
 }
 
+#submit-button:active {
+    background-color: #e3e9e5;
+}
+
 #contact-map {
     text-align: center;
     padding: 2em;
