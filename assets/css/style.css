@@ -269,6 +269,36 @@ header {
     gap: 1em;
 }
 
+/* Styling cta section of help.html */
+
+#cta-help-page {
+    min-height: 150px;
+    text-align: center;
+}
+
+.cta-help {
+    max-width: 300px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #78a51a;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1em 2em;
+    margin: 2em 0;
+    border: 1px solid #78a51a;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color:#1a1a1a;
+    border: 1px solid #1a1a1a;
+}
+
 /* Styling footer */
 
 footer {
