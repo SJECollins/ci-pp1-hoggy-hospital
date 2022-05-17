@@ -20,3 +20,46 @@ h1, h2, h3 {
     text-align: center;
     padding: 1em 0;
 }
+
+/* Remove default styling for links */
+
+a {
+    text-decoration: none;
+    color: #78a51a;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+/* Styling for header, nav element */
+
+#navbar-logo {
+    max-height: 3rem;
+}
+
+header {
+    background-color: #1a1a1a;
+    min-height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    transition: all 0.9s linear 0s;
+}
+
+.nav-links a:hover {
+    color: #78a51a;
+}
