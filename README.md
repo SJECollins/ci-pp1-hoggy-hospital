@@ -34,5 +34,15 @@ What goals the organisation may have for the website:
 The first page comprises four sections that introduce the user to the organisation, provide information about work of the organisation, and features a video accompanied by a call to action and an invitation to explore the website further.
 
 #### Hero Image - Index.html
-- The first section contains a large hero image of a hedgehog overlaid by the title of the website and organisation.
+- The hero section contains a large hero image of a hedgehog overlaid by the title of the website and organisation.
 - The title features an ease-in transition when the page loads to draw the users eye.
+- The section contains a call-to-action contact button below the title. Although the contact page is easily visible on the navigation bar, the button being immediately displayed in the header means the user can find contact information quickly.
+
+#### About Section
+- The about section features three short paragraphs of text giving the user an introduction to the organisation. These paragraphs are intentionally short so as to encourage the user to keep reading. 
+- The section is styled such that on large screens the paragraphs display as a row, but wrap to fit beneath each other on smaller devices.
+- The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the same colour as the CTA button in the Hero section.
+
+### Why Help Hedgehogs Section
+- This section provides information to the user about the reasons animals come into the care of the organisation. This serves to provide motivation for the user to become emotionally invested in the work the organisation undertakes.
+- The section is styled with a background image which appears as the user scrolls down so that as the text information comes into focus, so too does the hedgehog's face. This also is aimed at appealling to the user to become emotionally invested while rewarding them with a cute image as they scroll down the page.

@@ -225,6 +225,15 @@ header {
     align-items: center;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 690px) {
+    .reasons {
+        justify-content: space-between;
+        padding: 0 2em;
+    }
+}
+
+
+
 /* Styling cta video section of index.html */
 .cta-wrapper {
     display: flex;
