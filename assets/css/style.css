@@ -343,7 +343,7 @@ button:hover {
     background: url("/assets/media/contact-hog.webp") center center/ cover no-repeat;
 }
 
-@media  screen and (min-width: 2500px) {
+@media  screen and (min-height: 981px) {
     #contact-info {
         min-height: 100vh;
         display: grid;
