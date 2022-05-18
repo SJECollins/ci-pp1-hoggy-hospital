@@ -340,8 +340,15 @@ button:hover {
 /* Styling for contact page */
 
 #contact-info {
-    background: url("/assets/media/contact-hog.webp") center center / cover no-repeat;
-    min-height: 600px;
+    background: url("/assets/media/contact-hog.webp") center center/ cover no-repeat;
+}
+
+@media  screen and (min-width: 2500px) {
+    #contact-info {
+        min-height: 100vh;
+        display: grid;
+        align-items: center;
+    }
 }
 
 .contacts {
