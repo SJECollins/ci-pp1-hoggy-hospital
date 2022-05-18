@@ -148,11 +148,20 @@ header {
 .hero-text {
     max-width: 25%;
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 10%;
 }
 
+@media screen and (max-width: 600px) {
+    #help-hero {
+        background-position: 30% center;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    .hero-image {
+        height: 400px;
+    }
     .hero-text > h1 {
         font-size: 3rem;
     }
