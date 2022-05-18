@@ -76,7 +76,7 @@ li {
 
 header {
     background-color: #1a1a1a;
-    min-height: 4.5rem;
+    min-height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +109,7 @@ header {
         padding: 0 2%;
     }
     .navbar-logo {
-        max-height: 2rem;
+        max-height: 2.25rem;
     }
     .logo-small {
         display: block;
@@ -122,7 +122,7 @@ header {
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .logo-small {
         display: none;
     }
