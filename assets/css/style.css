@@ -126,7 +126,6 @@ header {
     }
 }
 
-
 /* Styling for hero image and heading */
 .hero-outer {
     position: relative;
@@ -172,6 +171,7 @@ header {
 .about-box {
     text-align: justify;
     max-width: 350px;
+    padding: 0 1em;
 }
 
 /* Styling why help section of index.html */
@@ -224,6 +224,7 @@ header {
 .cta-aside {
     max-width: 150px;
     height: auto;
+    padding: 0 1em;
 }
 
 @media screen and (max-width: 900px) {
