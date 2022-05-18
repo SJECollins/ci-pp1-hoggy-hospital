@@ -32,7 +32,6 @@ h1 {
     padding: 0;
     color: white;
     font-size: 5rem;
-
     animation: fade-in-text ease-in 2s;
 }
 
@@ -46,7 +45,6 @@ h1 {
 }
 
 /* Remove default styling for links */
-
 a {
     text-decoration: none;
     color: #944c42;
@@ -58,7 +56,6 @@ li {
 }
 
 /* Styling for header, nav element */
-
 #navbar-logo {
     max-height: 3rem;
 }
@@ -103,11 +100,9 @@ header {
     .nav-links > li {
         margin-left: 1rem;
     }
-    
 }
 
 /* Styling for hero image and heading */
-
 .hero-outer {
     position: relative;
 }
@@ -140,7 +135,6 @@ header {
 }
 
 /* Styling about section on index.html */
-
 .about-container {
     min-height: 250px;
     display: flex;
@@ -156,7 +150,6 @@ header {
 }
 
 /* Styling why help section of index.html */
-
 #why-help {
     min-height: 600px;
     width: 100%;
@@ -189,7 +182,6 @@ header {
 }
 
 /* Styling cta video section of index.html */
-
 .cta-wrapper {
     display: flex;
     flex-direction: row;
@@ -214,7 +206,6 @@ header {
         flex-direction: column;
         align-items: center;
     }
-
     .cta-aside {
         max-width: 350px;
     }
@@ -227,7 +218,6 @@ header {
 }
 
 /* Styling intro section of help.html */
-
 .help-intro {
     display: flex;
     flex-direction: row;
@@ -254,7 +244,6 @@ header {
 }
 
 /* Styling how to help section of help.html */
-
 #help-how {
     min-height: 300px;
     width: 100%;
@@ -292,7 +281,6 @@ header {
     height: 100%;
     padding: 5em 2.5em;
     text-align: justify;
-
     position: relative;
     top: -304px;
     left: 0;
@@ -307,8 +295,8 @@ header {
 .how-box > p:hover {
     opacity: 1;
 }
-/* Styling cta section of help.html */
 
+/* Styling cta section of help.html */
 #cta-help-page {
     min-height: 150px;
     text-align: center;
@@ -338,7 +326,6 @@ button:hover {
 }
 
 /* Styling for contact page */
-
 #contact-info {
     background: url("/assets/media/contact-hog.webp") center center/ cover no-repeat;
 }
@@ -446,13 +433,11 @@ button:hover {
 }
 
 /* Styling received.html */
-
 #thank-you p {
     text-align: center;
 }
 
 /* Styling footer */
-
 footer {
     height: 5rem;
     background-color: #1a1a1a;
