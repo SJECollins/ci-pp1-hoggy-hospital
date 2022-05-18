@@ -512,8 +512,8 @@ button:hover {
         padding: 0.5em;
     }
     #contact-iframe {
-        max-width: 225px;
-        max-height: 225px;
+        max-width: 200px;
+        max-height: 200px;
     }
 }
 
