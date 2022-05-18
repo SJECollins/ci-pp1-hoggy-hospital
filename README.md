@@ -13,9 +13,9 @@ Why a user may visit the website:
 
 What goals the organisation may have for the website:
 
-* To reach a larger audience
-* To provide information to users about the work they do
+* To reach a wide audience
 * To encourage support from the public
+* To provide information to users about the work they do
 * To provide contact information to members of the public
 
 ## Features
