@@ -44,6 +44,12 @@ h1 {
     }
 }
 
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 /* Remove default styling for links */
 a {
     text-decoration: none;
@@ -152,6 +158,13 @@ header {
     left: 10%;
 }
 
+.hero-text > button {
+    padding: 0.5em 1em;
+    margin-top: 3em;
+    display: inline-block;
+    white-space: nowrap;
+}
+
 @media screen and (max-width: 600px) {
     #help-hero {
         background-position: 30% center;
@@ -161,9 +174,6 @@ header {
 @media screen and (max-width: 500px) {
     .hero-image {
         height: 400px;
-    }
-    .hero-text > h1 {
-        font-size: 3rem;
     }
 }
 
