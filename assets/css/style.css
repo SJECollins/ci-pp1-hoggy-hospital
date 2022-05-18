@@ -56,8 +56,16 @@ li {
 }
 
 /* Styling for header, nav element */
-#navbar-logo {
+.navbar-logo {
     max-height: 3rem;
+}
+
+.logo-big {
+    display: block;
+}
+
+.logo-small {
+    display: none;
 }
 
 header {
@@ -94,13 +102,30 @@ header {
     header {
         padding: 0 2%;
     }
-    #navbar-logo {
+    .navbar-logo {
         max-height: 2rem;
+    }
+    .logo-small {
+        display: block;
+    }
+    .logo-big {
+        display: none;
     }
     .nav-links > li {
         margin-left: 1rem;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .logo-small {
+        display: none;
+    }
+    header {
+        justify-content: space-evenly;
+        padding-right: 1.5rem;
+    }
+}
+
 
 /* Styling for hero image and heading */
 .hero-outer {
@@ -479,6 +504,6 @@ footer a:hover {
 
 @media screen and (max-width: 500px) {
     footer a {
-        padding: 0 0.5rem;
+        padding: 0 0.25rem;
     }
 }
