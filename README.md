@@ -33,7 +33,7 @@ What goals the organisation may have for the website:
 
 The first page comprises four sections that introduce the user to the organisation, provide information about work of the organisation, and features a video accompanied by a call to action and an invitation to explore the website further.
 
-#### Hero Image - Index.html
+#### Hero Image - index.html
 - The hero section contains a large hero image of a hedgehog overlaid by the title of the website and organisation.
 - The title features an ease-in transition when the page loads to draw the users eye.
 - The section contains a call-to-action contact button below the title. Although the contact page is easily visible on the navigation bar, the button being immediately displayed in the header means the user can find contact information quickly.
@@ -43,6 +43,30 @@ The first page comprises four sections that introduce the user to the organisati
 - The section is styled such that on large screens the paragraphs display as a row, but wrap to fit beneath each other on smaller devices.
 - The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the same colour as the CTA button in the Hero section.
 
-### Why Help Hedgehogs Section
+#### Why Help Hedgehogs Section
 - This section provides information to the user about the reasons animals come into the care of the organisation. This serves to provide motivation for the user to become emotionally invested in the work the organisation undertakes.
-- The section is styled with a background image which appears as the user scrolls down so that as the text information comes into focus, so too does the hedgehog's face. This also is aimed at appealling to the user to become emotionally invested while rewarding them with a cute image as they scroll down the page.
+- The section is styled with a background image which appears as the user scrolls down so that as the text information comes into focus, so too does the hedgehog's face. This also is aimed at appealing to the user to become emotionally invested while rewarding them with a cute image as they scroll down the page. The background image also serves to break up the page so it appears as distinct sections.
+
+#### Who You're Helping Section
+- The video element with accompanying text serves as a covert call to action. 
+- The video provides controls to allow the user to initiate playback and is muted on load so the user won't be surprised by any unexpected noise. It is a simple video aimed at appealing to the users desire to see cute animals and could easily be substituted in a real wildlife organisation with a real video of a rescued animal.
+- The text accompanying the video includes inline links to the How To Help page and Contact page to encourage the user to engage further with the website now that they have reached the bottom of the first page.
+
+### Help A Hog Page
+
+The second page of the site is similarly comprised of four sections. It focuses entirely on encouraging the user to support the organisation and features interactivity to engage the user.
+
+#### Hero Image - help.html
+- To match the first page, the first section contains a hero image as well. This provides an opportunity to reward the user with an appealing image of a hedgehog for visiting further into the page.
+
+#### Help Introduction Section
+- Comprised of text and an accompanying image, the introductory section of this page encourages the user to support the organisation by giving a summary of the ways available to help.
+
+#### Ways To Help Section
+- This presents the three main means of help that the organisation accepts.
+- It is styled on a light background that highlights the images as important features and separates them from the sections above and below. The three images are styled to wrap on smaller devices while remaining centered on the page. Using the hover pseudoclass, the user can interact with the images so that the image transitions to text specific to the option they are interacting with. 
+
+#### CTA Section
+- At the bottom of the page is a simple call-to-action section. At this point, the user has presumably explored all the previous sections of the site and been presented with information about the organisation's work and the ways the user can help. They are invited by a question in the title and a large button element to contact the organisation.
+- The button element is styled similarly to the CTA on the index.html hero section, though slightly larger as it is the focus for the user here. When hovered over, the button style changes to give feedback to the user.
+
