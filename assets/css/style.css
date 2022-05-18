@@ -211,9 +211,15 @@ header {
     }
 }
 
+@media screen and (min-width: 1400px) {
+    .hog-video {
+        max-width: 800px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .hog-video {
-        max-width: 275px;
+        max-width: 300px;
     }
 }
 
@@ -241,6 +247,15 @@ header {
     height: auto;
     object-fit: contain;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .help-intro-left {
+        max-width: 300px;
+    }
+    .help-intro-right > img {
+        max-width: 300px;
+    }
 }
 
 /* Styling how to help section of help.html */
