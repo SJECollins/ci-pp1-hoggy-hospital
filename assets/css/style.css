@@ -395,9 +395,15 @@ button:hover {
 
 #emergency-contact {
     max-width: 600px;
-    max-height: 200px;
+    min-height: 200px;
     margin: 0 auto;
-    padding-bottom: 1rem;
+    padding-bottom: 1em;
+}
+
+@media screen and (max-width: 650px) {
+    #emergency-contact {
+        margin: 0 2em;
+    }
 }
 
 #emergency-contact > p {
@@ -406,13 +412,14 @@ button:hover {
 
 .contact-form {
     max-width: 600px;
-    height: 600px;
+    min-height: 600px;
     font-weight: 600;
+    padding-bottom: 1em;
 }
 
 .contact-location {
     width: 600px;
-    max-height: 600px;
+    min-height: 600px;
     line-height: 1.5em;
 }
 
@@ -470,7 +477,23 @@ button:hover {
 }
 
 #contact-iframe {
+    border: 1px solid #944c42;
     border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width: 450px) {
+    .contact-location {
+        min-height: 500px
+    }
+    #contact-map {
+        padding: 0.5em;
+    }
+    #contact-iframe {
+        max-width: 225px;
+        max-height: 225px;
+    }
 }
 
 /* Styling received.html */
