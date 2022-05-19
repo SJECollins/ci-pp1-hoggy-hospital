@@ -261,6 +261,8 @@ header {
     object-fit: contain;
     opacity: 1;
     transition: opacity 0.5s linear;
+    position: relative;
+    z-index: 2;
 }
 
 .how-box > p {
@@ -273,16 +275,11 @@ header {
     position: relative;
     top: -304px;
     left: 0;
-    opacity: 0;
-    transition: opacity 0.5s linear;
+    z-index: 1;
 }
 
 .how-box > img:hover, .how-box > img:active {
     opacity: 0;
-}
-
-.how-box > p:hover, .how-box > p:active {
-    opacity: 1;
 }
 
 /* Styling cta section of help.html */
