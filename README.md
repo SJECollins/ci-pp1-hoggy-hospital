@@ -70,3 +70,27 @@ The second page of the site is similarly comprised of four sections. It focuses 
 - At the bottom of the page is a simple call-to-action section. At this point, the user has presumably explored all the previous sections of the site and been presented with information about the organisation's work and the ways the user can help. They are invited by a question in the title and a large button element to contact the organisation.
 - The button element is styled similarly to the CTA on the index.html hero section, though slightly larger as it is the focus for the user here. When hovered over, the button style changes to give feedback to the user.
 
+### Contact Page
+The third page of the website contains all the relevant information that the user may need to contact or locate the organisation. It is presented as three simple, similarly styled boxes or cards over a large background image of a hedgehog. The emergency contact always remains on top and centered horizontally. On large screens the form and location elements are displayed in a row below, with the location element wrapping below the form on small screens.
+
+#### Emergency Contact
+- Horizontally aligned centrally with a large heading, the first element presented to the user is the phone number to contact in case of an emergency. One of the main reasons a user may visit a wildlife rescue organisation's website is to find contact information in the case that they have found an injured animal, so this information is provided first and clearly labelled.
+
+#### Contact Form
+- The second element is the form element for a user to use to contact the organisation. The only required inputs are the name and email address. There is an option to include their phone number for contact purposes, but it is not required in the case the user is not comfortable providing that information. The user has the option to select checkboxes to identify if and how they would like to support the organisation. The user also has the option to include a message in the textarea element.
+
+#### Location
+- The third element contains the location information for the organisation. This includes a iframe element with the organisation's location pinned on the map so users can easily find it.
+
+### Received.html
+This page serves to provide feedback to the user when they click submit on the form element. They are directed to a page containing simple text and the navigation and footer elements to allow them to navigate to the main site. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
+
+### Future Expansion
+As a wildlife rescue website, there are a variety of features that could be implemented in the future.
+1. A direct donation link. This could be connected to the organisation's PayPal account or similar, allowing the user to donate directly on the page, quickly and easily.
+2. A blog. It provides further user engagement and encourages users to return. Users of these types of sites enjoy learning more about individual rescue cases. It can also be used to direct views from social media to the site, for example, through short synopses on Facebook or Instagram with links encouraging the user to read the blog for the full story. Similarly, it can direct views to the organisations social media sites, e.g. by linking to their videos on YouTube.
+3. A gallery. This could comprise solely of pictures of the animals rescued or include the facilities or staff of the organisation, creating a more personal connection with the user.
+4. An online shop. An online shop with options to purchase limited branded merchandise (e.g. mugs, stickers, etc.) or sponsorship of an animal could be implemented as a means of fundraising, branding or to encourage user engagement.
+
+## Design
+
