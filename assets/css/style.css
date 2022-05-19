@@ -277,11 +277,11 @@ header {
     transition: opacity 0.5s linear;
 }
 
-.how-box > img:hover {
+.how-box > img:hover, .how-box > img:active {
     opacity: 0;
 }
 
-.how-box > p:hover {
+.how-box > p:hover, .how-box > p:active {
     opacity: 1;
 }
 
