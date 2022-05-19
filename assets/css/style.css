@@ -274,7 +274,8 @@ header {
     position: relative;
     top: -304px;
     left: 0;
-    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s linear;
 }
 
 .how-box:hover > img, .how-box:focus > img {
@@ -282,7 +283,7 @@ header {
 }
 
 .how-box:hover > p, .how-box:focus > p {
-    visibility: visible;
+    opacity: 1;
 }
 
 /* Styling cta section of help.html */
