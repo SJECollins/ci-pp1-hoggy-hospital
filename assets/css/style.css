@@ -396,7 +396,7 @@ button:hover {
 
 /* Styling for contact page */
 #contact-info {
-    background: url("/assets/media/contact-hog.webp") center center/ cover no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/assets/media/contact-hog.webp") center center/ cover no-repeat;
 }
 
 @media  screen and (min-height: 981px) {
