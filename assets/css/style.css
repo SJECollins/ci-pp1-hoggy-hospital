@@ -505,6 +505,14 @@ footer a:hover {
         justify-content: space-evenly;
         padding-right: 1.5rem;
     }
+    .checkbox-help {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .checkbox-help input {
+        margin-bottom: 1em;
+    }
 }
 
 @media (max-width: 900px) {
