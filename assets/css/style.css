@@ -31,7 +31,7 @@ h1, h2, h3 {
 h1 {
     padding: 0;
     color: white;
-    font-size: 5rem;
+    font-size: clamp(3.5rem, 6vw, 5rem);
     animation: fade-in-text ease-in 2s;
 }
 
@@ -41,12 +41,6 @@ h1 {
     }
     100% {
         opacity: 1;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    h1 {
-        font-size: 3rem;
     }
 }
 
@@ -108,9 +102,6 @@ header {
     header {
         padding: 0 2%;
     }
-    .navbar-logo {
-        max-height: 2.25rem;
-    }
     .logo-small {
         display: block;
     }
@@ -122,7 +113,7 @@ header {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
     .logo-small {
         display: none;
     }
@@ -146,7 +137,7 @@ header {
 }
 
 .hero-image {
-    height: 600px;
+    height: min(75vh, 600px);
     width: 100%;
     background: center center / cover no-repeat;
 }
@@ -168,12 +159,6 @@ header {
 @media screen and (max-width: 600px) {
     #help-hero {
         background-position: 30% center;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .hero-image {
-        height: 400px;
     }
 }
 
@@ -241,8 +226,12 @@ header {
     padding-bottom: 2rem;
 }
 
+.cta-video {
+    width: clamp(300px, 30%, 800px);
+}
+
 .hog-video {
-    max-width: 500px;
+    width: 100%;
     height: auto;
     object-fit: contain;
 }
@@ -261,18 +250,6 @@ header {
     }
     .cta-text {
         max-width: 350px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .hog-video {
-        max-width: 800px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .hog-video {
-        max-width: 300px;
     }
 }
 
@@ -509,7 +486,7 @@ button:hover {
 #contact-iframe {
     border: 1px solid #944c42;
     border-radius: 10px;
-    width: 300px;
+    max-width: 300px;
     height: 300px;
 }
 
