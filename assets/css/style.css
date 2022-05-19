@@ -104,11 +104,11 @@ header {
 }
 
 #home-hero {
-    background-image: url("/assets/media/index-hero-hog.webp");
+    background-image: url("./assets/media/index-hero-hog.webp");
 }
 
 #help-hero {
-    background-image: url("/assets/media/help-hero-hog.webp");
+    background-image: url("./assets/media/help-hero-hog.webp");
 }
 
 .hero-image {
@@ -151,7 +151,7 @@ header {
 #why-help {
     min-height: 600px;
     width: 100%;
-    background: url("/assets/media/why-help-hog.webp") center center / cover no-repeat fixed;
+    background: url("./assets/media/why-help-hog.webp") center center / cover no-repeat fixed;
     margin-top: 1.5rem;
 }
 
@@ -316,7 +316,7 @@ button:hover {
 
 /* Styling for contact page */
 #contact-info {
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/assets/media/contact-hog.webp") center center/ cover no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./assets/media/contact-hog.webp") center center/ cover no-repeat;
 }
 
 .contacts {
