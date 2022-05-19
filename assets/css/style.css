@@ -98,31 +98,6 @@ header {
     border-bottom: 2px solid #78a51a;
 }
 
-@media screen and (max-width: 620px) {
-    header {
-        padding: 0 2%;
-    }
-    .logo-small {
-        display: block;
-    }
-    .logo-big {
-        display: none;
-    }
-    .nav-links > li {
-        margin-left: 1rem;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .logo-small {
-        display: none;
-    }
-    header {
-        justify-content: space-evenly;
-        padding-right: 1.5rem;
-    }
-}
-
 /* Styling for hero image and heading */
 .hero-outer {
     position: relative;
@@ -154,12 +129,6 @@ header {
     margin-top: 3em;
     display: inline-block;
     white-space: nowrap;
-}
-
-@media screen and (max-width: 600px) {
-    #help-hero {
-        background-position: 30% center;
-    }
 }
 
 /* Styling about section on index.html */
@@ -210,13 +179,6 @@ header {
     align-items: center;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 690px) {
-    .reasons {
-        justify-content: space-between;
-        padding: 0 2em;
-    }
-}
-
 /* Styling cta video section of index.html */
 .cta-wrapper {
     display: flex;
@@ -243,16 +205,6 @@ header {
     text-align: justify;
 }
 
-@media screen and (max-width: 900px) {
-    .cta-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-    .cta-text {
-        max-width: 350px;
-    }
-}
-
 /* Styling intro section of help.html */
 .help-intro {
     display: flex;
@@ -277,15 +229,6 @@ header {
     height: auto;
     object-fit: contain;
     border-radius: 10px;
-}
-
-@media screen and (max-width: 500px) {
-    .help-intro-left {
-        max-width: 300px;
-    }
-    .help-intro-right > img {
-        max-width: 300px;
-    }
 }
 
 /* Styling how to help section of help.html */
@@ -376,14 +319,6 @@ button:hover {
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/assets/media/contact-hog.webp") center center/ cover no-repeat;
 }
 
-@media  screen and (min-height: 981px) {
-    #contact-info {
-        min-height: 100vh;
-        display: grid;
-        align-items: center;
-    }
-}
-
 .contacts {
     background-color: rgba(242, 236,210, 0.7);
     border-radius: 10px;
@@ -403,12 +338,6 @@ button:hover {
     min-height: 200px;
     margin: 0 auto;
     padding-bottom: 1em;
-}
-
-@media screen and (max-width: 650px) {
-    #emergency-contact {
-        margin: 0 2em;
-    }
 }
 
 #emergency-contact > p {
@@ -490,19 +419,6 @@ button:hover {
     height: 300px;
 }
 
-@media screen and (max-width: 450px) {
-    .contact-location {
-        min-height: 500px
-    }
-    #contact-map {
-        padding: 0.5em;
-    }
-    #contact-iframe {
-        max-width: 200px;
-        max-height: 200px;
-    }
-}
-
 /* Styling received.html */
 #thank-you p {
     text-align: center;
@@ -533,8 +449,84 @@ footer a:hover {
     color: #78a51a;
 }
 
-@media screen and (max-width: 500px) {
+/* Media Queries */
+@media (max-width: 450px) {
+    .contact-location {
+        min-height: 500px
+    }
+    #contact-map {
+        padding: 0.5em;
+    }
+    #contact-iframe {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .help-intro-left {
+        max-width: 300px;
+    }
+    .help-intro-right > img {
+        max-width: 300px;
+    }
     footer a {
         padding: 0 0.25rem;
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        padding: 0 2%;
+    }
+    .logo-small {
+        display: block;
+    }
+    .logo-big {
+        display: none;
+    }
+    .nav-links > li {
+        margin-left: 1rem;
+    }
+    #help-hero {
+        background-position: 30% center;
+    }
+    #emergency-contact {
+        margin: 0 2em;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo-small {
+        display: none;
+    }
+    header {
+        justify-content: space-evenly;
+        padding-right: 1.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .cta-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta-text {
+        max-width: 350px;
+    }
+}
+
+@media (min-height: 981px) {
+    #contact-info {
+        min-height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 690px) {
+    .reasons {
+        justify-content: space-between;
+        padding: 0 2em;
     }
 }
