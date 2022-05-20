@@ -311,8 +311,16 @@ button:hover {
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../media/contact-hog.webp") center center/ cover no-repeat;
 }
 
+#contact-head {
+    background-color: rgba(55, 43, 37, 0.5);
+    border-radius: 10px;
+    width: min(80vw, 600px);
+    padding: 1em 2em;
+    margin: 5vh auto;
+}
+
 .contacts {
-    background-color: rgba(242, 236,210, 0.7);
+    background-color: rgba(242, 236, 210, 0.7);
     border-radius: 10px;
     padding: 0 1em;
 }
@@ -441,7 +449,7 @@ footer a:hover {
     color: #78a51a;
 }
 
-/* Keyframes for H1 fade-in */
+/* Keyframes for H1 fade-in*/
 
 @keyframes fade-in-text {
     0% {
@@ -530,9 +538,10 @@ footer a:hover {
 @media (min-height: 981px) {
     #contact-info {
         min-height: 100vh;
-        display: grid;
-        align-items: center;
     }
+    /* #contact-info > h1 {
+        padding: 10vh 0;
+    } */
 }
 
 @media (max-width: 1200px) and (min-width: 690px) {
