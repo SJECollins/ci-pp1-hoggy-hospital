@@ -278,17 +278,11 @@ header {
     position: relative;
     top: -305px;
     left: 0;
-    /* opacity: 0;
-    transition: opacity 0.5s linear; */
 }
 
 .how-box:hover > img, .how-box:active > img {
     opacity: 0;
 }
-
-/* .how-box:hover > p, .how-box:active > p {
-    opacity: 1;
-} */
 
 /* Styling cta section of help.html */
 #cta-help-page {
