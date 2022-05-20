@@ -264,6 +264,8 @@ header {
     object-fit: contain;
     opacity: 1;
     transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
     position: relative;
 }
 
@@ -279,6 +281,8 @@ header {
     left: 0;
     opacity: 0;
     transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
 }
 
 .how-box:hover > img, .how-box:focus > img {
