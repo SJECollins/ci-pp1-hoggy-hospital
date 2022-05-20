@@ -285,11 +285,11 @@ header {
     -moz-transition: opacity 0.5s linear;
 }
 
-.how-box:hover > img, .how-box:focus > img {
+.how-box:hover > img, .how-box:active > img {
     opacity: 0;
 }
 
-.how-box:hover > p, .how-box:focus > p {
+.how-box:hover > p, .how-box:active > p {
     opacity: 1;
 }
 
