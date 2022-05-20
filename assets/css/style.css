@@ -35,15 +35,6 @@ h1 {
     animation: fade-in-text ease-in 2s;
 }
 
-@keyframes fade-in-text {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 /* Remove default styling for links */
 a {
     text-decoration: none;
@@ -448,6 +439,17 @@ footer a {
 
 footer a:hover {
     color: #78a51a;
+}
+
+/* Keyframes for H1 fade-in */
+
+@keyframes fade-in-text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Media Queries */
