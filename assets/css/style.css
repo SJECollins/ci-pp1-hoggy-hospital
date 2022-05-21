@@ -154,7 +154,7 @@ header {
 #why-help {
     min-height: 600px;
     width: 100%;
-    background: url("../media/why-help-hog.webp") center center / cover no-repeat fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../media/why-help-hog.webp") center center / cover no-repeat fixed;
     margin-top: 1.5rem;
 }
 
