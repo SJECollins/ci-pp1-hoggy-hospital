@@ -78,6 +78,7 @@ The third page of the website contains all the relevant information that the use
 
 #### Contact Form
 - The second element is the form element for a user to use to contact the organisation. The only required inputs are the name and email address. There is an option to include their phone number for contact purposes, but it is not required in the case the user is not comfortable providing that information. The user has the option to select checkboxes to identify if and how they would like to support the organisation. The user also has the option to include a message in the textarea element.
+- Currently, the form opens a new tab to confirm receipt of the submitted form.
 
 #### Location
 - The third element contains the location information for the organisation. This includes a iframe element with the organisation's location pinned on the map so users can easily find it.
