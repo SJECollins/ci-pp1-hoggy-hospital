@@ -124,3 +124,23 @@ Wireframes were created in Balsamiq.
 ### Mockups
 Mockups were created in Gimp to visualise the layout with images in place and experiment with colours. The final colours and were not decided until the website was tested with Lighthouse.
 ![Gimp Mockup](readme-docs/hog-hospital-gimp-mockup.png)
+
+## Technologies Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5): mark-up language.
+- [CSS3](https://en.wikipedia.org/wiki/CSS): styling.
+- [GIT](https://git-scm.com/): for version control.
+- [GitHub](https://github.com/): for host repository.
+- [Gitpod](https://www.gitpod.io/): online IDE.
+- [Google Fonts](https://fonts.google.com/): to import fonts.
+- [Font Awesome](https://fontawesome.com/): to import icons.
+- [Balsamiq](https://balsamiq.com/): to create wireframes.
+- [GIMP](https://www.gimp.org/): to edit images, create a mockup and select colours.
+- [Inkscape](https://inkscape.org/): to create the logo.
+- [TinyPNG](https://tinypng.com/): to compress images.
+
+## Testing
+### [HTML Validator](https://validator.w3.org/)
+
+
+### [CSS Validator](https://jigsaw.w3.org/css-validator/)
