@@ -96,3 +96,31 @@ As a wildlife rescue website, there are a variety of features that could be impl
 ## Design
 ### Imagery
 On an animal related website, users expect visual content of animals so the site was designed around including a large amount of images of hedgehogs. The images are chosen for being clear, close up images that invoke a positive responsive in the user. All but two sections of the site contain an image or video of a hedgehog to encourage and reward the user for exploring the site.
+- The navigation logo was drawn in Inkscape. On large devices, it includes the name of the hospital. On smaller devices, the text is removed but the logo remains. On very small devices, unfortunately it was decided to remove the logo to allow space for the links. The logo is a very simple design, easily recognised as a hedgehog at different sizes.
+- The hero images were chosen for being large quality, close up images. The positioning of the hedgehogs in the images gives the impression of them approaching or looking to the headings in the hero sections.
+- Linear-gradients were applied in the CSS to the background image on the Why Help Hedgehogs section of the index age and the background image of the contact page. This improved readability of the text over the images but still allowed them to be viewed clearly. 
+- The images used on the website were edited in Gimp and exported as webp to reduce size. The large background of the contact page was compressed using TinyPNG to improve performance.
+
+### Colour
+The colours used were sampled from the hero image on the index page. They include a dark brown, dark red, green, light yellow and off-white. A black was used for text that was chosen separately. The colours were chosen to convey an overall earthy and natural feel. Several were tested for readability until the final selection were decided. It was decided not to use to many or too vibrant colours and to allow the imagery to be the focus.
+
+### Typography
+Google Fonts was used to import the Raleway font to style.css to be used as the main font. Verdana was chosen for headings. These simple sans-serif fonts were selected as they are quite easy to read and not distracting for the user. A small increase in line height and letter spacing in style.css improved readability. Font sizes were styled to change across screen sizes. 
+
+### Buttons and Links
+- Links in the header and footer were styled white with a green fade-in transition to provide feedback to the user when they were interacting with the links. 
+- Inline links and buttons were styled similarly to each other. It was decided on a dark red colour to style both so as not to confuse the user. The colour chosen as it was easily readable without being too distracting. Inline links were given an increase in font weight to stand out further from surrounding text. CTA buttons and the submit button on the contact form were styled with white text on the dark red. This inverts when hovered over to provide feedback to the user that they are about to interact with an element.
+
+### Wireframes
+Wireframes were created in Balsamiq.
+- Home Wireframe
+![Home Wireframe](readme-docs/index.png)
+
+- Help A Hog Wireframe
+![Help A Hog Wireframe](readme-docs/help.png)
+- Contact Us Wireframe
+![Contact Us Wireframe](readme-docs/contact.png)
+
+### Mockups
+Mockups were created in Gimp to visualise the layout with images in place and experiment with colours. The final colours and were not decided until the website was tested with Lighthouse.
+![Gimp Mockup](readme-docs/hog-hospital-gimp-mockup.png)
