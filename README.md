@@ -20,10 +20,10 @@ What goals the organisation may have for the website:
 
 ## Features
 ### Navigation
-- The header element features a navbar that is used across all pages. It remains at the top of the screen as the user scrolls down the pages so they can easily navigate to different pages without having to return to the top of the page.
-- To the right of the navbar are links to the three main pages of the website. On hover, the links transition to green to ackowledge the users interaction. The "active" page has a bottom-border in green to reflect which page the user is on.
+- The header element features a navbar that is used across all pages. It remains at the top of the screen as the user scrolls down the site so they can easily navigate to different pages on narrower devices without having to scroll back to the top to find navigation.
+- On the right of the navbar are links to the three main pages of the website. On hover, the links transition to green to ackowledge the users interaction. The "active" page has a bottom-border in green to reflect which page the user is currently on.
 - The navbar features a logo to the left side which navigates to the main page. On larger screens the logo features a hedgehog with text of the name of the organisation. On smaller devices, the logo is replaced with a simple hedgehog to maintain branding but provide space for the links. On very small screens, the logo is removed to allow the links to be easily accessed and prevent misclicking on small devices.
-- The background colour is a black and the text is in white to provide good contrast. The transition and bottom-border are in green as it contrasts well with the black.
+- The background colour is a dark brown and the text is in white to provide good contrast. The transition and bottom-border are in green as it an appropriate colour for the theme of the site and contrasts well with the brown.
 
 ### Footer
 - The footer element features social media links for the organisation. It features across all pages.
@@ -36,19 +36,19 @@ The first page comprises four sections that introduce the user to the organisati
 #### Hero Image - index.html
 - The hero section contains a large hero image of a hedgehog overlaid by the title of the website and organisation.
 - The title features an ease-in transition when the page loads to draw the users eye.
-- The section contains a call-to-action contact button below the title. Although the contact page is easily visible on the navigation bar, the button being immediately displayed in the header means the user can find contact information quickly.
+- The section contains a call-to-action contact button below the title. Although the contact page is easily visible on the navigation bar, the button being immediately displayed in the header means the user can find contact information quickly. The button is styled in a dark red colour taken from the hero image itself with text in white. On hover, the button's colour scheme is inverted.
 
 #### About Section
-- The about section features three short paragraphs of text giving the user an introduction to the organisation. These paragraphs are intentionally short so as to encourage the user to keep reading. 
+- The about section features three short paragraphs of text giving the user an introduction to the organisation. These paragraphs are intentionally short so as not to overload the user with information immediately on arrival and to encourage the user to keep reading. 
 - The section is styled such that on large screens the paragraphs display as a row, but wrap to fit beneath each other on smaller devices.
-- The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the same colour as the CTA button in the Hero section.
+- The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the sam dark red colour as the CTA button in the Hero section.
 
 #### Why Help Hedgehogs Section
 - This section provides information to the user about the reasons animals come into the care of the organisation. This serves to provide motivation for the user to become emotionally invested in the work the organisation undertakes.
-- The section is styled with a background image which appears as the user scrolls down so that as the text information comes into focus, so too does the hedgehog's face. This also is aimed at appealing to the user to become emotionally invested while rewarding them with a cute image as they scroll down the page. The background image also serves to break up the page so it appears as distinct sections.
+- The section is styled with a background image which appears as the user scrolls down so that as the text information comes into focus, so too does the hedgehog's face. This also is aimed at appealing to the user to become emotionally invested while rewarding them with a cute image as they scroll down the page. The background image also serves to break up the page into sections.
 
 #### Who You're Helping Section
-- The video element with accompanying text serves as a covert call to action. 
+- The video element with accompanying text serves as a call to action. 
 - The video provides controls to allow the user to initiate playback and is muted on load so the user won't be surprised by any unexpected noise. It is a simple video aimed at appealing to the users desire to see cute animals and could easily be substituted in a real wildlife organisation with a real video of a rescued animal.
 - The text accompanying the video includes inline links to the How To Help page and Contact page to encourage the user to engage further with the website now that they have reached the bottom of the first page.
 
@@ -94,4 +94,5 @@ As a wildlife rescue website, there are a variety of features that could be impl
 4. An online shop. An online shop with options to purchase limited branded merchandise (e.g. mugs, stickers, etc.) or sponsorship of an animal could be implemented as a means of fundraising, branding or to encourage user engagement.
 
 ## Design
-
+### Imagery
+On an animal related website, users expect visual content of animals so the site was designed around including a large amount of images of hedgehogs. The images are chosen for being clear, close up images that invoke a positive responsive in the user. All but two sections of the site contain an image or video of a hedgehog to encourage and reward the user for exploring the site.
