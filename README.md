@@ -144,3 +144,14 @@ Mockups were created in Gimp to visualise the layout with images in place and ex
 
 
 ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+### Lighthouse
+The site was tested used Lighthouse in Chrome DevTools throughout the development to check performance, accessibiltiy, best practices and SEO. This testing informed the decision on the final choice of colours. Using Lighthouse, it was decided to change the images from .png to .webp and compress certain images to improve performance. The final test on Lighthouse was run on incognito mode and these are the results:
+![Lighthouse Results](readme-docs/lighthouse.png)
+
+### Browser Compatibility
+The website was tested on:
+- Chrome 
+- Firefox
+- Edge
+- Safari iOS 15.4.1 on an iPhone 8
