@@ -141,9 +141,30 @@ Mockups were created in Gimp to visualise the layout with images in place and ex
 
 ## Testing
 ### [HTML Validator](https://validator.w3.org/)
-
+- Index.html:
+  - ![Index results](readme-docs/html-val-index.png)
+  - [Link to HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsjecollins.github.io%2Fci-pp1-hoggy-hospital)
+- Help.html:
+  - ![Help results](readme-docs/html-val-help.png)
+  - [Link to HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsjecollins.github.io%2Fci-pp1-hoggy-hospital%2Fhelp.html)
+- Contact.html:
+  - ![Contact results](readme-docs/html-val-contact.png)
+  - [Link to HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsjecollins.github.io%2Fci-pp1-hoggy-hospital%2Fcontact.html)
+- Received.html:
+  - ![Received results](readme-docs/html-val-received.png)
+  - [Link to HTML Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsjecollins.github.io%2Fci-pp1-hoggy-hospital%2Freceived.html)
 
 ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Results for style.css:
+  - ![CSS results](readme-docs/css-validator.png)
+  - <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+     
 
 ### Lighthouse
 The site was tested used Lighthouse in Chrome DevTools throughout the development to check performance, accessibiltiy, best practices and SEO. This testing informed the decision on the final choice of colours. Using Lighthouse, it was decided to change the images from .png to .webp and compress certain images to improve performance. The final test on Lighthouse was run on incognito mode and these are the results:
