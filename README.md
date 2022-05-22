@@ -149,6 +149,23 @@ Mockups were created in Gimp to visualise the layout with images in place and ex
 - [TinyPNG](https://tinypng.com/): to compress images.
 
 ## Testing
+- I tested that h1 headings fade-in on page load as expected.
+- I tested that the header and footer links transition to green on hover.
+- I tested that the current page is highlighted in navigation with a green underline.
+- I tested that internal links open to the correct pages in the current tab.
+- I tested that external links open to the correct sites in a new tab.
+- I tested that the CTA buttons invert their colours on hover and open to the contact page when clicked.
+- I tested that the fixed background image in the Reasons Section remains fixed as I scrolled down the page.
+- I tested that on load the video was paused, muted and the user had the open to start the video.
+- I tested that the images in the How To Help Section become transparent to reveal the text underneath on hover.
+- I tested that, on mobile, the images in the How To Help Section become transparent to reveal the text underneath when tapped.
+- I tested that the form inputs accepted their correct inputs and requested an input when the user attempted to submit the form without filling out required inputs.
+- I tested that the form submit button opened to the Received page when the form was submitted correctly.
+- I tested that the map opened correctly to a larger view in a new tab.
+- I tested the layout across the most common emulated devices in Chrome DevTools to ensure the layout wasn't breaking.
+- I tested responsiveness in multiple browers by resizing the windows to ensure the layout was changing where appropriate.
+
+
 ### [HTML Validator](https://validator.w3.org/)
 - Index.html:
   - ![Index results](readme-docs/html-val-index.png)
@@ -188,8 +205,28 @@ The website was tested on:
 - Internet Explorer was tested and did not work as intended (images and colours did not load properly, positioning of elements was incorrect), but as the browser is retiring on the 15th of June this year, it was decided not to spend time adapting the site for this browser.
 
 ### User Experience
+- The user is presented with information in a organised, easy to digest fashion that encourages further exploration.
+- The user is given multiple means to find the information they require:
+  - Navigation bar
+  - CTA buttons directing to contact information
+  - Inline links
+- The user is able to use features on the website to contact the organisation.
+- The user is consistently rewarded for exploring the page with imagery or interactivity intended to illicit a positive emotional response.
 
-### Bugs
+### Fixed Bugs
+- Header logo
+  - The logo in the header created an issue where on smaller screen widths, it pushed the links out of line.
+  - A hamburger menu was considered but to stay (as much as possible) within the project parameters of only using HTML and CSS, it was decided to change the logo on smaller devices to a simple hedgehog and, on very small screens, remove the logo altogether to allow the links to stay in one line.
+- Contact page background
+  - Initially on deployment, the background image of the contact page was not filling very large screens and the footer was displaying in the centre of the screen. It was related to the viewheight of the screen.
+  - The background image was given a min-height of 100vh.
+- How To Help images not responding on mobile
+  - The :hover psuedoclass used on the images and text on the section does not work on mobile.
+  - A :active psuedoclass was added for mobile. Additionally, the code was reworked to remove the transition on the text and the opacity transition is now only applied to the images. The text was repositioned using the z-index. This made the code smaller and simpler.
+
+### Known Bugs
+- The website does not load correctly on Internet Explorer.
+  - The browser is being retired on 15/06/22 so it was decided not to use time on trying to adapt the site to it.
 
 ## Deployment
 ### Steps to deploy site:

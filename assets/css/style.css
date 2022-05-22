@@ -321,6 +321,7 @@ button:hover {
 /* Styling for contact page */
 #contact-info {
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../media/contact-hog.webp") center center/ cover no-repeat;
+    min-height: 100vh;
 }
 
 #contact-head {
@@ -547,12 +548,6 @@ footer a:hover {
     }
     .cta-text {
         max-width: 350px;
-    }
-}
-
-@media (min-height: 981px) {
-    #contact-info {
-        min-height: 100vh;
     }
 }
 
