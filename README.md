@@ -172,7 +172,51 @@ The site was tested used Lighthouse in Chrome DevTools throughout the developmen
 
 ### Browser Compatibility
 The website was tested on:
-- Chrome 
-- Firefox
-- Edge
-- Safari iOS 15.4.1 on an iPhone 8
+- Chrome Version 101.0.4951.67
+- Firefox Version 101.0.4951.67
+- Edge Version 101.0.1210.53
+- Safari iOS Version 15.4.1 on an iPhone 8
+- Internet Explorer was tested and did not work as intended (images and colours did not load properly, positioning of elements was incorrect), but as the browser is retiring on the 15th of June this year, it was decided not to spend time adapting the site for this browser.
+
+### User Experience
+
+### Bugs
+
+## Deployment
+### Steps to deploy site:
+- In the GitHub repository, navigate to the "Settings" tab.
+- Scroll down to "Pages" in the menu on the left hand side.
+- Under the heading "Source", click the drop-down menu and select "main" branch.
+- The page will automatically refresh with a link to the deployed website.
+- It may not go live for a few minutes, refresh the page to update the link.
+
+The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.io/ci-pp1-hoggy-hospital)
+
+## Credit
+### Code
+- The code for the navigation underline on an active page is from the Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- The code for the h1 fade-in animation is based on this [GeeksforGeeks Tutorial](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/)
+- The use of min() and clamp() for responsive resizing of some elements, particularly headings, was based on [this tutorial by Kevin Powell](https://www.youtube.com/watch?v=U9VF-4euyRo&t=844s&ab_channel=KevinPowell)
+- The use of Flexbox for the help.html intro section was based on [this tutorial by Kevin Powell](https://www.youtube.com/watch?v=bn-DQCifeQQ&t=1769s&ab_channel=KevinPowell)
+  - More broadly, the site implements Flexbox liberally, inspired by experimenting after this tutorial
+- The code to reduce opacity of the images over text when hovered over is based on: [Crossfading images](http://css3.bradshawenterprises.com/cfimg/)
+- The linear-gradient over background images to improve readability is based on the response to this [question on Stack Overflow](https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
+- The embedded google map is based on code from [Maps.ie](https://www.maps.ie/create-google-map/)
+
+### Media
+- Icons for contact.html and the external links on index.html are from [Font Awesome](https://fontawesome.com)
+- The Raleway font was imported from [Google Fonts](https://fonts.google.com)
+
+- Images from [Unsplash](https://unsplash.com):
+  - [Help Intro Hedgehog](https://unsplash.com/photos/tP55Wb-eLNw) by Fabian Fromwald
+  - [Volunteer Hedgehog](https://unsplash.com/photos/iwFbKbfPGNk) by Tadeusz Lakota
+  - [Sponsor Hedgehog](https://unsplash.com/photos/FN0RjBugxMA) by Jana Vukomanovic
+  - [Reasons Section Background](https://unsplash.com/photos/GXMr7BadXQo) by Piotr Laskawski
+  - [Contact Page Background](https://unsplash.com/photos/OMCgkp1oZ3Q) by Alexas_Fotos
+- Images from [Pixabay](https://pixabay.com):
+  - [Help Hero Image](https://pixabay.com/photos/hedgehog-child-young-hedgehog-1701544/) by Alexas_Fotos
+- Image from [Pexels](https://pexels.com):
+  - [Index Hero Image](https://www.pexels.com/photo/brown-hedgehog-on-green-grass-3894108/) by Daniel Sillifant
+  - [Donate Hedgehog](https://www.pexels.com/photo/brown-and-black-hedgehog-standing-on-brown-dry-leaved-134061/) by monicore
+- Video from [Pexels](https://pexels.com):
+  - [Hedgehog Video](https://pixabay.com/videos/hedgehog-grass-go-animals-nature-4250/) by klimkin
