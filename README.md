@@ -5,6 +5,21 @@ On the website, users can find information about the Hoggy Hospital. Users are t
 
 ![Hoggy Hospital](readme-docs/ami-responsive.png)
 
+# Table of Contents
+- [User Experience](https://github.com/SJECollins/ci-pp1-hoggy-hospital#user-experience)
+- [Features](https://github.com/SJECollins/ci-pp1-hoggy-hospital#features)
+  - [Universal](https://github.com/SJECollins/ci-pp1-hoggy-hospital#universal)
+  - [Index Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#index-page)
+  - [Help A Hog Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#help-a-hog-page)
+  - [Contact Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#contact-page)
+  - [Received Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#received)
+  - [Future Expansion](https://github.com/SJECollins/ci-pp1-hoggy-hospital#future-expansion)
+- [Design](https://github.com/SJECollins/ci-pp1-hoggy-hospital#design)
+- [Technologies Used](https://github.com/SJECollins/ci-pp1-hoggy-hospital#technologies-used)
+- [Testing](https://github.com/SJECollins/ci-pp1-hoggy-hospital#testing)
+- [Deployment](https://github.com/SJECollins/ci-pp1-hoggy-hospital#deployment)
+- [Credits](https://github.com/SJECollins/ci-pp1-hoggy-hospital#credits)
+
 ## User Experience
 ### User Story
 Why a user may visit the website:
@@ -21,14 +36,15 @@ What goals the organisation may have for the website:
 * To provide contact information to members of the public
 
 ## Features
-### Navigation
+### Universal
+#### Navigation Bar
 - The header element features a navbar that is used across all pages. It remains at the top of the screen as the user scrolls down the site so they can easily navigate to different pages on narrower devices without having to scroll back to the top to find navigation.
 - On the right of the navbar are links to the three main pages of the website. On hover, the links transition to green to acknowledge the users interaction. The "active" page has a bottom-border in green to reflect which page the user is currently on.
 - The navbar features a logo to the left side which navigates to the main page. On larger screens the logo features a hedgehog with text of the name of the organisation. On smaller devices, the logo is replaced with a simple hedgehog to maintain branding but provide space for the links. On very small screens, the logo is removed to allow the links to be easily accessed and prevent misclicking on small devices.
 - The background colour is a dark brown and the text is in white to provide good contrast. The transition and bottom-border are in green as it an appropriate colour for the theme of the site and contrasts well with the brown.
   ![Navbar](readme-docs/hog-hosp-navbar.webp)
 
-### Footer
+#### Footer
 - The footer element features social media links for the organisation. It features across all pages.
 - The links feature a similar transition to green as the navbar.
 
@@ -93,7 +109,7 @@ The third page of the website contains all the relevant information that the use
 - The third element contains the location information for the organisation. This includes a iframe element with the organisation's location pinned on the map so users can easily find it.
   ![Location](readme-docs/location.webp)
 
-### Received.html
+### Received
 This page serves to provide feedback to the user when they click submit on the form element. They are directed to a page containing simple text and the navigation and footer elements to allow them to navigate to the main site. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
 
 ### Future Expansion
@@ -238,7 +254,7 @@ The website was tested on:
 
 The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.io/ci-pp1-hoggy-hospital)
 
-## Credit
+## Credits
 ### Code
 - The code for the navigation underline on an active page is from the Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
 - The code for the h1 fade-in animation is based on this [GeeksforGeeks Tutorial](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/)
