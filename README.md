@@ -3,7 +3,7 @@ The Hoggy Hospital is a website for a fictional wildlife organisation that rescu
 
 On the website, users can find information about the Hoggy Hospital. Users are told about its purpose and why its work is important, the ways that they can support the organisation, and information on how to contact it.
 
-![Hoggy Hospital](readme-docs/ami-responsive.png)
+![Hoggy Hospital](readme-docs/ami-responsive.webp)
 
 The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.io/ci-pp1-hoggy-hospital)
 
