@@ -307,4 +307,4 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
   - [Hedgehog Video](https://pixabay.com/videos/hedgehog-grass-go-animals-nature-4250/) by klimkin
 
 ### Acknowledgement
-I'd like to thasnk my mentor, Brian Macharia, for providing very good advice, tips and feedback, as well as excellent resources that aided greatly in organising and implementing this project.
+I'd like to thank my mentor, Brian Macharia, for providing very good advice, tips and feedback, as well as excellent resources that aided greatly in organising and implementing this project.
