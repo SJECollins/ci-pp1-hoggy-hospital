@@ -1,5 +1,5 @@
 # The Hoggy Hospital
-The Hoggy Hospital is a website for a fictional wildlife organisation that rescues and rehabilitates hedgehogs. The site targets people who are interested in learning about the organisaton or who may wish to support it in some way.
+The Hoggy Hospital is a website for a fictional wildlife organisation that rescues and rehabilitates hedgehogs. The site targets people who are interested in learning about the organisaton, who may need their help in rescuing an injured animal, or who may wish to support the organisation in some way.
 
 On the website, users can find information about the Hoggy Hospital. Users are told about its purpose and why its work is important, the ways that they can support the organisation, and information on how to contact it.
 
@@ -28,7 +28,7 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
 Why a user may visit the website:
 
 * To learn about the work the organisation does
-* To contact the organisation in the event they find a sick or injured animal
+* To contact or locate the organisation
 * To find out if they can donate or contribute to the organisation in some way
 
 What goals the organisation may have for the website:
@@ -180,22 +180,6 @@ Mockups were created in Gimp to visualise the layout with images in place and ex
 - [TinyPNG](https://tinypng.com/): to compress images.
 
 ## Testing
-- I tested that h1 headings fade-in on page load as expected.
-- I tested that the header and footer links transition to green on hover.
-- I tested that the current page is highlighted in navigation with a green underline.
-- I tested that internal links open to the correct pages in the current tab.
-- I tested that external links open to the correct sites in a new tab.
-- I tested that the CTA buttons invert their colours on hover and open to the contact page when clicked.
-- I tested that the fixed background image in the Reasons Section remains fixed as I scrolled down the page.
-- I tested that on load the video was paused, muted and the user had the open to start the video.
-- I tested that the images in the How To Help Section become transparent to reveal the text underneath on hover.
-- I tested that, on mobile, the images in the How To Help Section become transparent to reveal the text underneath when tapped.
-- I tested that the form inputs accepted their correct inputs and requested an input when the user attempted to submit the form without filling out required inputs.
-- I tested that the form submit button opened to the Received page when the form was submitted correctly.
-- I tested that the map opened correctly to a larger view in a new tab.
-- I tested the layout across the most common emulated devices in Chrome DevTools to ensure the layout wasn't breaking.
-- I tested responsiveness in multiple browers by resizing the windows to ensure the layout was changing where appropriate.
-
 
 ### [HTML Validator](https://validator.w3.org/)
 - Index.html:
@@ -235,14 +219,30 @@ The website was tested on:
 - Safari iOS Version 15.4.1 on an iPhone 8
 - Internet Explorer was tested and did not work as intended (images and colours did not load properly, positioning of elements was incorrect), but as the browser is retiring on the 15th of June this year, it was decided not to spend time adapting the site for this browser.
 
-### User Experience
-- The user is presented with information in a organised, easy to digest fashion that encourages further exploration.
-- The user is given multiple means to find the information they require:
-  - Navigation bar
-  - CTA buttons directing to contact information
-  - Inline links
-- The user is able to use features on the website to contact the organisation.
-- The user is consistently rewarded for exploring the page with imagery or interactivity intended to illicit a positive emotional response.
+### Testing Functionality
+![Testing Table](readme-docs/pp1-testing-table.webp)
+
+  *_The :hover pseudoclass does not function on mobile the way that it does on desktop and so the transition effect was not expected to work on mobile_
+
+  **_As above, the :hover pseudoclass was not expected to function on mobile. The button colours do invert when tapped on mobile_
+
+### Testing User Story
+- Users who are visiting the website to learn about the organisation. 
+  - Users are presented with an about section immediately below the hero image on the main page. This leads into a section about the work is important, and so on. The information is presented in clear and concise sections. The flow of the website encourages the user to continue exploring. The user is continuously presented with imagery that illicits a positive response in the user as they browse the site. The user always has at least one method of navigation at hand so that they can find the information they require.
+- Users who are visiting the website to contact or locate the organisation.
+  - Immediately on arriving on the main page and without having to scroll there are two available elements that link to the contact page - the link to the contact page on the right of the navigation bar and the large "Contact Us" button predominantly displayed below to page heading.
+  - The contact page contains three methods for the user to contact the organisation:
+    1. Emergency contact - prominantly displayed at the top of the page to draw attention
+    2. Contact form - in cases which are less urgent. For example, if a user would like to volunteer there time or if they have a question that doesn't require an immediate response.
+    3. Location information - for cases where a user may need to send something by post or attend the organisation physically, such as dropping off an injured animal.
+  - Also available on the website are the social media links in the footer. These can be found across all pages so users are able to contact or follow the organisation on any of their social media accounts.
+  - In the case that the user is visiting the website for another reason, but decides at some point that they would like to contact the organisation there are inline links at points in the text and another "Contact Us" button at the bottom of the Help A Hog page. 
+- Users who wish to support the organisation.
+  - On landing on the main page, users are presented with the "Contact Us" button which brings them to the contact form where they can register their interest in how they would like to support the organisation.
+  - From the navbar, users can find the Help A Hog page that provides them with information about the ways they can support the organisation.
+  - Inline links in other sections of the page are present to guide users to the support and contact pages.
+  - The CTA section at the bottom of the Help A Hog page presents a direct call to action with its presentation, asking users directly if they are "ready to help?"
+  - In the footer, present on all pages, users are provided with social media links in the case that they would like to support the organisation on their other platforms.
 
 ### Fixed Bugs
 - Header logo
@@ -254,6 +254,8 @@ The website was tested on:
 - How To Help images not responding on mobile
   - The :hover psuedoclass used on the images and text on the section does not work on mobile.
   - A :active psuedoclass was added for mobile. Additionally, the code was reworked to remove the transition on the text and the opacity transition is now only applied to the images. The text was repositioned using the z-index. This made the code smaller and simpler.
+- On very large screens, the layout became very stretched and unpleasant to navigate.
+  - A max-width was applied to the body element and it was centered to prevent the layout from becoming distorted.
 
 ### Known Bugs
 - The website does not load correctly on Internet Explorer.
