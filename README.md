@@ -5,6 +5,8 @@ On the website, users can find information about the Hoggy Hospital. Users are t
 
 ![Hoggy Hospital](readme-docs/ami-responsive.png)
 
+The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.io/ci-pp1-hoggy-hospital)
+
 # Table of Contents
 - [User Experience](https://github.com/SJECollins/ci-pp1-hoggy-hospital#user-experience)
 - [Features](https://github.com/SJECollins/ci-pp1-hoggy-hospital#features)
