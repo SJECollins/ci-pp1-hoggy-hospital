@@ -281,6 +281,7 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
 - The code to reduce opacity of the images over text when hovered over is based on: [Crossfading images](http://css3.bradshawenterprises.com/cfimg/)
 - The linear-gradient over background images to improve readability is based on the response to this [question on Stack Overflow](https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
 - The embedded google map is based on code from [Maps.ie](https://www.maps.ie/create-google-map/)
+- The code to add the 404 page is based on [this video by Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing)
 
 ### Media
 - Icons for contact.html and the external links on index.html are from [Font Awesome](https://fontawesome.com)
