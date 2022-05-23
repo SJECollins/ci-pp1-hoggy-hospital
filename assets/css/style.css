@@ -272,6 +272,7 @@ nav {
     max-height: 300px;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
 
 .how-box > img {
@@ -280,7 +281,7 @@ nav {
     object-fit: contain;
     opacity: 1;
     transition: opacity 0.5s linear;
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 
@@ -291,8 +292,8 @@ nav {
     height: 100%;
     padding: 4em 2.5em;
     text-align: justify;
-    position: relative;
-    top: -305px;
+    position: absolute;
+    top: 0;
     left: 0;
 }
 

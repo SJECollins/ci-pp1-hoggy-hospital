@@ -44,7 +44,7 @@ What goals the organisation may have for the website:
 - The header element features a navbar that is used across all pages. It remains at the top of the screen as the user scrolls down the site so they can easily navigate to different pages on narrower devices without having to scroll back to the top to find navigation.
 - On the right of the navbar are links to the three main pages of the website. On hover, the links transition to green to acknowledge the users interaction. The "active" page has a bottom-border in green to reflect which page the user is currently on.
 - The navbar features a logo to the left side which navigates to the main page. On larger screens the logo features a hedgehog with text of the name of the organisation. On smaller devices, the logo is replaced with a simple hedgehog to maintain branding but provide space for the links. On very small screens, the logo is removed to allow the links to be easily accessed and prevent misclicking on small devices.
-- The background colour is a dark brown and the text is in white to provide good contrast. The transition and bottom-border are in green as it an appropriate colour for the theme of the site and contrasts well with the brown.
+- The background colour is a dark brown and the text is in white to provide good contrast. The transition and bottom-border are in green as it is an appropriate colour for the theme of the site and contrasts well with the brown.
 
   ![Navbar](readme-docs/hog-hosp-navbar.webp)
 
@@ -54,10 +54,10 @@ What goals the organisation may have for the website:
 
 ### Index Page
 
-The first page comprises four sections that introduce the user to the organisation, provide information about work of the organisation, and features a video accompanied by a call to action and an invitation to explore the website further.
+The first page comprises four sections that introduce the user to the organisation, provide information about the work of the organisation, and features a video accompanied by a call to action and an invitation to explore the website further by way of inline links in the accompanying text.
 
 #### Hero Image - index.html
-- The hero section contains a large hero image of a hedgehog overlaid by the title of the website and organisation.
+- The hero section contains a large image of a hedgehog overlaid by the title of the website and organisation.
 - The title features an ease-in transition when the page loads to draw the users eye.
 - The section contains a call-to-action contact button below the title. Although the contact page is easily visible on the navigation bar, the button being immediately displayed in the header means the user can find contact information quickly. The button is styled in a dark red colour taken from the hero image itself with text in white. On hover, the button's colour scheme is inverted.
 
@@ -66,7 +66,7 @@ The first page comprises four sections that introduce the user to the organisati
 #### About Section
 - The about section features three short paragraphs of text giving the user an introduction to the organisation. These paragraphs are intentionally short so as not to overload the user with information immediately on arrival and to encourage the user to keep reading. 
 - The section is styled such that on large screens the paragraphs display as a row, but wrap to fit beneath each other on smaller devices.
-- The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the sam dark red colour as the CTA button in the Hero section.
+- The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the same dark red colour as the CTA button in the Hero section.
 
 #### Why Help Hedgehogs Section
 - This section provides information to the user about the reasons animals come into the care of the organisation. This serves to provide motivation for the user to become emotionally invested in the work the organisation undertakes.
@@ -92,7 +92,7 @@ The second page of the site is similarly comprised of four sections. It focuses 
 - Comprised of text and an accompanying image, the introductory section of this page encourages the user to support the organisation by giving a summary of the ways available to help.
 
 #### How You Can Help Section
-- This presents the three main means of help that the organisation accepts.
+- This presents the main means of help that the organisation accepts.
 - It is styled on a light background that highlights the images as important features and separates them from the sections above and below. The three images are styled to wrap on smaller devices while remaining centered on the page. Using the hover pseudoclass, the user can interact with the images so that the image transitions to text specific to the option they are interacting with. 
 
   ![How To Help](readme-docs/how-to.webp)
@@ -141,6 +141,7 @@ On an animal related website, users expect visual content of animals so the site
 - The hero images were chosen for being large quality, close up images. The positioning of the hedgehogs in the images gives the impression of them approaching or looking to the headings in the hero sections.
 - Linear-gradients were applied in the CSS to the background image on the Why Help Hedgehogs section of the index age and the background image of the contact page. This improved readability of the text over the images but still allowed them to be viewed clearly. 
 - The images used on the website were edited in Gimp and exported as webp to reduce size. The large background of the contact page was compressed using TinyPNG to improve performance.
+- Where necessary, background colours are set in case the large background images do not load.
 
 ### Colour
 The colours used were sampled from the hero image on the index page. They include a dark brown, dark red, green, light yellow and off-white. A black was used for text that was chosen separately. The colours were chosen to convey an overall earthy and natural feel. Several were tested for readability until the final selection were decided. It was decided not to use to many or too vibrant colours and to allow the imagery to be the focus.
