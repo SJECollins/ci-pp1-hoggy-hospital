@@ -15,6 +15,7 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
   - [Help A Hog Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#help-a-hog-page)
   - [Contact Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#contact-page)
   - [Received Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#received)
+  - [404 Page](https://github.com/SJECollins/ci-pp1-hoggy-hospital#404-page)
   - [Future Expansion](https://github.com/SJECollins/ci-pp1-hoggy-hospital#future-expansion)
 - [Design](https://github.com/SJECollins/ci-pp1-hoggy-hospital#design)
 - [Technologies Used](https://github.com/SJECollins/ci-pp1-hoggy-hospital#technologies-used)
@@ -44,6 +45,7 @@ What goals the organisation may have for the website:
 - On the right of the navbar are links to the three main pages of the website. On hover, the links transition to green to acknowledge the users interaction. The "active" page has a bottom-border in green to reflect which page the user is currently on.
 - The navbar features a logo to the left side which navigates to the main page. On larger screens the logo features a hedgehog with text of the name of the organisation. On smaller devices, the logo is replaced with a simple hedgehog to maintain branding but provide space for the links. On very small screens, the logo is removed to allow the links to be easily accessed and prevent misclicking on small devices.
 - The background colour is a dark brown and the text is in white to provide good contrast. The transition and bottom-border are in green as it an appropriate colour for the theme of the site and contrasts well with the brown.
+
   ![Navbar](readme-docs/hog-hosp-navbar.webp)
 
 #### Footer
@@ -58,6 +60,7 @@ The first page comprises four sections that introduce the user to the organisati
 - The hero section contains a large hero image of a hedgehog overlaid by the title of the website and organisation.
 - The title features an ease-in transition when the page loads to draw the users eye.
 - The section contains a call-to-action contact button below the title. Although the contact page is easily visible on the navigation bar, the button being immediately displayed in the header means the user can find contact information quickly. The button is styled in a dark red colour taken from the hero image itself with text in white. On hover, the button's colour scheme is inverted.
+
   ![Index Hero](readme-docs/hog-hosp-hero.webp)
 
 #### About Section
@@ -68,12 +71,14 @@ The first page comprises four sections that introduce the user to the organisati
 #### Why Help Hedgehogs Section
 - This section provides information to the user about the reasons animals come into the care of the organisation. This serves to provide motivation for the user to become emotionally invested in the work the organisation undertakes.
 - The section is styled with a background image which appears as the user scrolls down so that as the text information comes into focus, so too does the hedgehog's face. This also is aimed at appealing to the user to become emotionally invested while rewarding them with a cute image as they scroll down the page. The background image also serves to break up the page into sections.
+
   ![Reasons Section](readme-docs/reasons.webp)
 
 #### Who You're Helping Section
 - The video element with accompanying text serves as a call to action. 
 - The video provides controls to allow the user to initiate playback and is muted on load so the user won't be surprised by any unexpected noise. It is a simple video aimed at appealing to the users desire to see cute animals and could easily be substituted in a real wildlife organisation with a real video of a rescued animal.
 - The text accompanying the video includes inline links to the How To Help page and Contact page to encourage the user to engage further with the website now that they have reached the bottom of the first page.
+
   ![Video](readme-docs/video-section.webp)
 
 ### Help A Hog Page
@@ -89,6 +94,7 @@ The second page of the site is similarly comprised of four sections. It focuses 
 #### How You Can Help Section
 - This presents the three main means of help that the organisation accepts.
 - It is styled on a light background that highlights the images as important features and separates them from the sections above and below. The three images are styled to wrap on smaller devices while remaining centered on the page. Using the hover pseudoclass, the user can interact with the images so that the image transitions to text specific to the option they are interacting with. 
+
   ![How To Help](readme-docs/how-to.webp)
 
 #### CTA Section
@@ -108,11 +114,18 @@ The third page of the website contains all the relevant information that the use
   ![Form](readme-docs/form.webp)
 
 #### Location
-- The third element contains the location information for the organisation. This includes a iframe element with the organisation's location pinned on the map so users can easily find it.
+- The third element contains the location information for the organisation. This includes an iframe element with the organisation's location pinned on the map so users can easily find it.
+
   ![Location](readme-docs/location.webp)
 
 ### Received
 This page serves to provide feedback to the user when they click submit on the form element. They are directed to a page containing simple text and the navigation and footer elements to allow them to navigate to the main site. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
+- With only HTML and CSS, I was unable to submit the form information using POST to https://formdump.codeinstitute.net/ and at the same time redirect to a confirmation page. I discussed with my mentor and we decided it was acceptable in this case to stay as strictly within the HTML and CSS restrictions as possible.
+
+### 404 Page
+On the suggestion of my mentor, I have added a 404 error page to the site. It is very simply styled and features a button directing to the home page, with the same styling as the CTA buttons found on the main site. 
+
+![404](readme-docs/404.webp)
 
 ### Future Expansion
 As a wildlife rescue website, there are a variety of features that could be implemented in the future.
