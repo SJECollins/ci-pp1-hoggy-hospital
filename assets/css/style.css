@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 :root {
     --hog-white: #f2f5fa;
@@ -446,6 +446,19 @@ button:hover {
 /* Styling received.html */
 #thank-you p {
     text-align: center;
+}
+
+/* Styling 404.html */
+#error-section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#error-section > h1 {
+    color: var(--hog-black);
 }
 
 /* Styling footer */
