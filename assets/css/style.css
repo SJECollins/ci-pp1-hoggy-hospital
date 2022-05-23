@@ -30,6 +30,9 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    max-width: 2550px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h2, h3 {
@@ -75,14 +78,17 @@ li {
 
 header {
     background-color: var(--hog-brown);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav {
     min-height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
-    position: sticky;
-    top: 0;
-    z-index: 99;
 }
 
 .nav-links > li {
@@ -501,7 +507,7 @@ footer a:hover {
 
 @media (max-width: 650px) {
     header {
-        padding: 0 2%;
+        padding: 0;
     }
     .logo-small {
         display: block;
@@ -511,6 +517,9 @@ footer a:hover {
     }
     .nav-links > li {
         margin-left: 1rem;
+    }
+    nav {
+        padding: 0 2%;
     }
     #help-hero {
         background-position: 30% center;
@@ -530,6 +539,9 @@ footer a:hover {
     header {
         justify-content: space-around;
         padding-right: 1.5rem;
+    }
+    nav {
+        padding: 0;
     }
     .checkbox-help {
         display: flex;
