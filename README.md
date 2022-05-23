@@ -93,7 +93,7 @@ The second page of the site is similarly comprised of four sections. It focuses 
 
 #### How You Can Help Section
 - This presents the main means of help that the organisation accepts.
-- It is styled on a light background that highlights the images as important features and separates them from the sections above and below. The three images are styled to wrap on smaller devices while remaining centered on the page. Using the hover pseudoclass, the user can interact with the images so that the image transitions to text specific to the option they are interacting with. 
+- It is styled on a light background that highlights the images as important features and separates them from the sections above and below. The three images are styled to wrap on smaller devices while remaining centered on the page. Using the :hover and :active pseudoclasses, the user can interact with the images so that the image transitions to text specific to the option they are interacting with. 
 
   ![How To Help](readme-docs/how-to.webp)
 
@@ -105,22 +105,20 @@ The second page of the site is similarly comprised of four sections. It focuses 
 The third page of the website contains all the relevant information that the user may need to contact or locate the organisation. It is presented as three simple, similarly styled boxes or cards over a large background image of a hedgehog. The emergency contact always remains on top and centered horizontally. On large screens the form and location elements are displayed in a row below, with the location element wrapping below the form on small screens.
 
 #### Emergency Contact
-- Horizontally aligned centrally with a large heading, the first element presented to the user is the phone number to contact in case of an emergency. One of the main reasons a user may visit a wildlife rescue organisation's website is to find contact information in the case that they have found an injured animal, so this information is provided first and clearly labelled.
+- Centrally aligned with a large heading, the first element presented to the user is the phone number to contact in case of an emergency. One of the main reasons a user may visit a wildlife rescue organisation's website is to find contact information in the case that they have found an injured animal, so this information is provided first and clearly labelled.
 
 #### Contact Form
 - The second element is the form element for a user to use to contact the organisation. The only required inputs are the name and email address. There is an option to include their phone number for contact purposes, but it is not required in the case the user is not comfortable providing that information. The user has the option to select checkboxes to identify if and how they would like to support the organisation. The user also has the option to include a message in the textarea element.
-- Currently, the form opens a new tab to confirm receipt of the submitted form.
+- Currently, the form is non-functional, but opens a new tab to confirm receipt of the submitted form. Within the parameters of just using HTML and CSS, I decided to use the GET method and open a new tab simply styled to confirm receipt to make the website feel like a complete site. 
 
   ![Form](readme-docs/form.webp)
 
 #### Location
 - The third element contains the location information for the organisation. This includes an iframe element with the organisation's location pinned on the map so users can easily find it.
 
-  ![Location](readme-docs/location.webp)
-
 ### Received
 This page serves to provide feedback to the user when they click submit on the form element. They are directed to a page containing simple text and the navigation and footer elements to allow them to navigate to the main site. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
-- With only HTML and CSS, I was unable to submit the form information using POST to https://formdump.codeinstitute.net/ and at the same time redirect to a confirmation page. I discussed with my mentor and we decided it was acceptable in this case to stay as strictly within the HTML and CSS restrictions as possible.
+- Initially, I set up the form with the POST method, submitting inputs to https://formdump.codeinstitute.net/. While I would like to provide a functional form, using the correct method, and also give feedback to the user on submission of the form, I discussed with my mentor and we decided it was acceptable in this case to stay as strictly within the HTML and CSS restrictions as possible for the time being.
 
 ### 404 Page
 On the suggestion of my mentor, I have added a 404 error page to the site. It is very simply styled and features a button directing to the home page, with the same styling as the CTA buttons found on the main site. 
@@ -128,11 +126,11 @@ On the suggestion of my mentor, I have added a 404 error page to the site. It is
 ![404](readme-docs/404.webp)
 
 ### Future Expansion
-As a wildlife rescue website, there are a variety of features that could be implemented in the future.
-1. A direct donation link. This could be connected to the organisation's PayPal account or similar, allowing the user to donate directly on the page, quickly and easily.
-2. A blog. It provides further user engagement and encourages users to return. Users of these types of sites enjoy learning more about individual rescue cases. It can also be used to direct views from social media to the site, for example, through short synopses on Facebook or Instagram with links encouraging the user to read the blog for the full story. Similarly, it can direct views to the organisations social media sites, e.g. by linking to their videos on YouTube.
-3. A gallery. This could comprise solely of pictures of the animals rescued or include the facilities or staff of the organisation, creating a more personal connection with the user.
-4. An online shop. An online shop with options to purchase limited branded merchandise (e.g. mugs, stickers, etc.) or sponsorship of an animal could be implemented as a means of fundraising, branding or to encourage user engagement.
+As a wildlife rescue website, there are a variety of features that can be implemented in the future.
+1. __A direct donation link__. This could be connected to the organisation's PayPal account or similar, allowing the user to donate directly on the page, quickly and easily.
+2. __A blog__. It provides further user engagement and encourages users to return. Users of these types of sites enjoy learning more about individual rescue cases. It can also be used to direct views from social media to the site, for example, through short synopses on Facebook or Instagram with links encouraging the user to read the blog for the full story. Similarly, it can direct views to the organisations social media sites, e.g. by linking to their videos on YouTube.
+3. __A gallery__. This could comprise solely of pictures of the animals rescued or include the facilities or staff of the organisation, creating a more personal connection with the user.
+4. __An online shop__. An online shop with options to purchase limited branded merchandise (e.g. mugs, stickers, etc.) or sponsorship of an animal could be implemented as a means of fundraising, branding or to encourage user engagement.
 
 ## Design
 ### Imagery
@@ -144,14 +142,14 @@ On an animal related website, users expect visual content of animals so the site
 - Where necessary, background colours are set in case the large background images do not load.
 
 ### Colour
-The colours used were sampled from the hero image on the index page. They include a dark brown, dark red, green, light yellow and off-white. A black was used for text that was chosen separately. The colours were chosen to convey an overall earthy and natural feel. Several were tested for readability until the final selection were decided. It was decided not to use to many or too vibrant colours and to allow the imagery to be the focus.
+The colours used were sampled from the hero image on the index page. They include a dark brown, dark red, green, light yellow and off-white. A black was used for text that was chosen separately. The colours were chosen to convey an overall earthy and natural feel. Several were tested for readability until the final selection were decided. It was decided not to use too many or too vibrant colours and to allow the imagery to be the focus.
 
 ### Typography
 Google Fonts was used to import the Raleway font to style.css to be used as the main font. Verdana was chosen for headings. These simple sans-serif fonts were selected as they are quite easy to read and not distracting for the user. A small increase in line height and letter spacing in style.css improved readability. Font sizes were styled to change across screen sizes. 
 
 ### Buttons and Links
 - Links in the header and footer were styled white with a green fade-in transition to provide feedback to the user when they were interacting with the links. 
-- Inline links and buttons were styled similarly to each other. It was decided on a dark red colour to style both so as not to confuse the user. The colour chosen as it was easily readable without being too distracting. Inline links were given an increase in font weight to stand out further from surrounding text. CTA buttons and the submit button on the contact form were styled with white text on the dark red. This inverts when hovered over to provide feedback to the user that they are about to interact with an element.
+- Inline links and buttons were styled similarly to each other. It was decided on a dark red colour to style both so as not to confuse the user. The colour was chosen as it was easily readable without being too distracting. Inline links were given an increase in font weight to stand out further from surrounding text. CTA buttons and the submit button on the contact form were styled with white text on the dark red. This inverts when hovered over to provide feedback to the user that they are about to interact with an element.
 
 ### Wireframes
 Wireframes were created in Balsamiq.
@@ -209,7 +207,7 @@ Mockups were created in Gimp to visualise the layout with images in place and ex
      
 
 ### Lighthouse
-The site was tested used Lighthouse in Chrome DevTools throughout the development to check performance, accessibiltiy, best practices and SEO. This testing informed the decision on the final choice of colours. Using Lighthouse, it was decided to change the images from .png to .webp and compress certain images to improve performance. The final test on Lighthouse was run on incognito mode and these are the results:
+The site was tested using Lighthouse in Chrome DevTools throughout the development to check performance, accessibiltiy, best practices and SEO. This testing informed the decision on the final choice of colours. Using Lighthouse, it was decided to change the images from .png to .webp and compress certain images to improve performance. The final test on Lighthouse was run on incognito mode and these are the results:
 ![Lighthouse Results](readme-docs/lighthouse.png)
 
 ### Browser Compatibility
@@ -217,7 +215,7 @@ The website was tested on:
 - Chrome Version 101.0.4951.67
 - Firefox Version 101.0.4951.67
 - Edge Version 101.0.1210.53
-- Safari iOS Version 15.4.1 on an iPhone 8
+- Safari iOS Version 15.4.1
 - Internet Explorer was tested and did not work as intended (images and colours did not load properly, positioning of elements was incorrect), but as the browser is retiring on the 15th of June this year, it was decided not to spend time adapting the site for this browser.
 
 ### Testing Functionality
@@ -229,7 +227,7 @@ The website was tested on:
 
 ### Testing User Story
 - Users who are visiting the website to learn about the organisation. 
-  - Users are presented with an about section immediately below the hero image on the main page. This leads into a section about the work is important, and so on. The information is presented in clear and concise sections. The flow of the website encourages the user to continue exploring. The user is continuously presented with imagery that illicits a positive response in the user as they browse the site. The user always has at least one method of navigation at hand so that they can find the information they require.
+  - Users are presented with an about section immediately below the hero image on the main page. This leads into a section about why the work is important, and so on. The information is presented in clear and concise sections. The flow of the website encourages the user to continue exploring. The user is continuously presented with imagery that illicits a positive response in the user as they browse the site. The user always has at least one method of navigation at hand so that they can find the information they require.
 - Users who are visiting the website to contact or locate the organisation.
   - Immediately on arriving on the main page and without having to scroll there are two available elements that link to the contact page - the link to the contact page on the right of the navigation bar and the large "Contact Us" button predominantly displayed below to page heading.
   - The contact page contains three methods for the user to contact the organisation:
@@ -253,8 +251,8 @@ The website was tested on:
   - Initially on deployment, the background image of the contact page was not filling very large screens and the footer was displaying in the centre of the screen. It was related to the viewheight of the screen.
   - The background image was given a min-height of 100vh.
 - How To Help images not responding on mobile
-  - The :hover psuedoclass used on the images and text on the section does not work on mobile.
-  - A :active psuedoclass was added for mobile. Additionally, the code was reworked to remove the transition on the text and the opacity transition is now only applied to the images. The text was repositioned using the z-index. This made the code smaller and simpler.
+  - The :hover pseudoclass used on the images and text on the section does not work on mobile.
+  - A :active pseudoclass was added for mobile. Additionally, the code was reworked to remove the transition on the text and the opacity transition is now only applied to the images. The text was repositioned using the z-index. This made the code smaller and simpler.
 - On very large screens, the layout became very stretched and unpleasant to navigate.
   - A max-width was applied to the body element and it was centered to prevent the layout from becoming distorted.
 
@@ -272,13 +270,19 @@ The website was tested on:
 
 The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.io/ci-pp1-hoggy-hospital)
 
+### Steps to clone site:
+- In the GitHub repository, click the "Code" button.
+- Select "HTTPS" and copy the URL.
+- Open Git Bash and navigate to the repository where you would like to locate the cloned repository.
+- Type "git clone" followed by the copied URL.
+- Press enter to create the clone.
+
 ## Credits
 ### Code
-- The code for the navigation underline on an active page is from the Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- The code for the navigation link underline on an active page is from the Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
 - The code for the h1 fade-in animation is based on this [GeeksforGeeks Tutorial](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/)
 - The use of min() and clamp() for responsive resizing of some elements, particularly headings, was based on [this tutorial by Kevin Powell](https://www.youtube.com/watch?v=U9VF-4euyRo&t=844s&ab_channel=KevinPowell)
 - The use of Flexbox for the help.html intro section was based on [this tutorial by Kevin Powell](https://www.youtube.com/watch?v=bn-DQCifeQQ&t=1769s&ab_channel=KevinPowell)
-  - More broadly, the site implements Flexbox liberally, inspired by experimenting after this tutorial
 - The code to reduce opacity of the images over text when hovered over is based on: [Crossfading images](http://css3.bradshawenterprises.com/cfimg/)
 - The linear-gradient over background images to improve readability is based on the response to this [question on Stack Overflow](https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
 - The embedded google map is based on code from [Maps.ie](https://www.maps.ie/create-google-map/)
@@ -301,3 +305,6 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
   - [Donate Hedgehog](https://www.pexels.com/photo/brown-and-black-hedgehog-standing-on-brown-dry-leaved-134061/) by monicore
 - Video from [Pexels](https://pexels.com):
   - [Hedgehog Video](https://pixabay.com/videos/hedgehog-grass-go-animals-nature-4250/) by klimkin
+
+### Acknowledgement
+I'd like to thasnk my mentor, Brian Macharia, for providing very good advice, tips and feedback, as well as excellent resources that aided greatly in organising and implementing this project.
