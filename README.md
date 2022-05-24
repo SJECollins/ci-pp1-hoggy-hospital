@@ -227,9 +227,11 @@ The website was tested on:
 
 ### Testing User Story
 - Users who are visiting the website to learn about the organisation. 
-  - Users are presented with an about section immediately below the hero image on the main page. This leads into a section about why the work is important, and so on. The information is presented in clear and concise sections. The flow of the website encourages the user to continue exploring. The user is continuously presented with imagery that illicits a positive response in the user as they browse the site. The user always has at least one method of navigation at hand so that they can find the information they require.
+  - Users are presented with an about section immediately below the hero image on the main page. This leads into a section about why the work is important, and so on. The information is presented in clear and concise sections. The flow of the website encourages the user to continue exploring. 
+  - The user is continuously presented with imagery related to the nature of the organisation that illicits a positive response in the user as they browse the site. 
+  - The user always has at least one method of navigation at hand so they can find the information they require.
 - Users who are visiting the website to contact or locate the organisation.
-  - Immediately on arriving on the main page and without having to scroll there are two available elements that link to the contact page - the link to the contact page on the right of the navigation bar and the large "Contact Us" button predominantly displayed below to page heading.
+  - Immediately on arriving on the main page and without having to scroll there are two available elements that link to the contact page - the link to the contact page on the right of the navigation bar and the large "Contact Us" button predominantly displayed below the page heading.
   - The contact page contains three methods for the user to contact the organisation:
     1. Emergency contact - prominantly displayed at the top of the page to draw attention
     2. Contact form - in cases which are less urgent. For example, if a user would like to volunteer there time or if they have a question that doesn't require an immediate response.
