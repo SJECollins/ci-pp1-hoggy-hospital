@@ -476,7 +476,6 @@ footer {
 
 footer a {
     color: var(--hog-white);
-    text-align: center;
     padding: 0 1.5rem;
     line-height: 4.75rem;
     transition: all 0.9s linear 0s;
