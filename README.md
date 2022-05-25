@@ -152,16 +152,35 @@ Google Fonts was used to import the Raleway font to style.css to be used as the 
 
 ### Wireframes
 Wireframes were created in Balsamiq.
-- Home Wireframe
+
+<details>
+<summary>Home Wireframe</summary>
+
 ![Home Wireframe](readme-docs/index.png)
-- Help A Hog Wireframe
+</details>
+
+<details>
+<summary>Help A Hog Wireframe</summary>
+
 ![Help A Hog Wireframe](readme-docs/help.png)
-- Contact Us Wireframe
+</details>
+
+<details>
+<summary>Contact Us Wireframe</summary>
+
 ![Contact Us Wireframe](readme-docs/contact.png)
+</details>
+
 
 ### Mockups
 Mockups were created in Gimp to visualise the layout with images in place and experiment with colours. The final colours and were not decided until the website was tested with Lighthouse.
+
+<details>
+<summary>GIMP Mockup</summary>
+
 ![Gimp Mockup](readme-docs/hog-hospital-gimp-mockup.png)
+</details>
+
 
 ## Technologies Used
 
