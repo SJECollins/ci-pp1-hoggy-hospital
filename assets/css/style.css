@@ -98,7 +98,7 @@ nav {
 
 .nav-links a {
     color: var(--hog-white);
-    transition: all 0.9s linear 0s;
+    transition: color 0.9s linear 0s;
 }
 
 .nav-links a:hover {
@@ -143,7 +143,26 @@ nav {
     white-space: nowrap;
 }
 
-/* Styling about section on index.html */
+/* Button Styling */
+
+button {
+    background-color: var(--hog-red);
+    color: var(--hog-white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1em 2em;
+    margin: 2em 0;
+    border: 1px solid var(--hog-red);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: var(--hog-white);
+    color:var(--hog-red);
+    border: 1px solid var(--hog-red);
+}
+
+/* Styling about-hospital section on index.html */
 .about-container {
     min-height: 250px;
     display: flex;
@@ -159,7 +178,7 @@ nav {
     padding: 0 1em;
 }
 
-/* Styling why help section of index.html */
+/* Styling why-help section of index.html */
 #why-help {
     background-color: var(--hog-brown);
     min-height: 600px;
@@ -186,7 +205,7 @@ nav {
     padding-bottom: 1.5rem;
 }
 
-.reasons-bg {
+.reasons-box {
     background-color: var(--hog-yellow-transparent);
     width: 300px;
     min-height: 400px;
@@ -197,7 +216,7 @@ nav {
     align-items: center;
 }
 
-/* Styling cta video section of index.html */
+/* Styling cta-video section of index.html */
 .cta-wrapper {
     display: flex;
     flex-direction: row;
@@ -223,8 +242,8 @@ nav {
     text-align: justify;
 }
 
-/* Styling intro section of help.html */
-.help-intro {
+/* Styling help-intro section of help.html */
+.help-intro-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -250,7 +269,7 @@ nav {
     border-radius: 10px;
 }
 
-/* Styling how to help section of help.html */
+/* Styling help-how section of help.html */
 #help-how {
     min-height: 300px;
     width: 100%;
@@ -312,23 +331,6 @@ nav {
     margin: 0 auto;
 }
 
-button {
-    background-color: var(--hog-red);
-    color: var(--hog-white);
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding: 1em 2em;
-    margin: 2em 0;
-    border: 1px solid var(--hog-red);
-    border-radius: 10px;
-}
-
-button:hover {
-    background-color: var(--hog-white);
-    color:var(--hog-red);
-    border: 1px solid var(--hog-red);
-}
-
 /* Styling for contact page */
 #contact-info {
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../media/contact-hog.webp") center center/ cover no-repeat;
@@ -368,6 +370,15 @@ button:hover {
     margin: 1rem;
 }
 
+.contact-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+}
+
 .contact-form {
     width: 600px;
     min-height: 600px;
@@ -379,15 +390,6 @@ button:hover {
     width: 600px;
     min-height: 600px;
     line-height: 1.5em;
-}
-
-.contact-boxes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 2em;
-    padding: 2em;
 }
 
 .form-input {
@@ -478,7 +480,7 @@ footer a {
     color: var(--hog-white);
     padding: 0 1.5rem;
     line-height: 4.75rem;
-    transition: all 0.9s linear 0s;
+    transition: color 0.9s linear 0s;
 }
 
 footer a:hover {
