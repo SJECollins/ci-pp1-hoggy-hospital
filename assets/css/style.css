@@ -49,7 +49,7 @@ h1 {
     padding: 0;
     color: var(--hog-white);
     font-size: clamp(3.5rem, 6vw, 5rem);
-    animation: fade-in-text ease-in 2s;
+    animation: fade-in-text ease-in 1.5s;
 }
 
 /* Remove default styling for links */
@@ -98,7 +98,7 @@ nav {
 
 .nav-links a {
     color: var(--hog-white);
-    transition: color 0.9s linear 0s;
+    transition: color 0.7s linear 0s;
 }
 
 .nav-links a:hover {
@@ -480,7 +480,7 @@ footer a {
     color: var(--hog-white);
     padding: 0 1.5rem;
     line-height: 4.75rem;
-    transition: color 0.9s linear 0s;
+    transition: color 0.7s linear 0s;
 }
 
 footer a:hover {
