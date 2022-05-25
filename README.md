@@ -109,7 +109,6 @@ The third page of the website contains all the relevant information that the use
 
 #### Contact Form
 - The second element is the form element for a user to use to contact the organisation. The only required inputs are the name and email address. There is an option to include their phone number for contact purposes, but it is not required in the case the user is not comfortable providing that information. The user has the option to select checkboxes to identify if and how they would like to support the organisation. The user also has the option to include a message in the textarea element.
-- Currently, the form is non-functional, but opens a new tab to confirm receipt of the submitted form. Within the parameters of just using HTML and CSS, I decided to use the GET method and open a new tab simply styled to confirm receipt to make the website feel like a complete site. 
 
   ![Form](readme-docs/form.webp)
 
@@ -117,8 +116,8 @@ The third page of the website contains all the relevant information that the use
 - The third element contains the location information for the organisation. This includes an iframe element with the organisation's location pinned on the map so users can easily find it.
 
 ### Received
-This page serves to provide feedback to the user when they click submit on the form element. They are directed to a page containing simple text and the navigation and footer elements to allow them to navigate to the main site. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
-- Initially, I set up the form with the POST method, submitting inputs to https://formdump.codeinstitute.net/. While I would like to provide a functional form, using the correct method, and also give feedback to the user on submission of the form, I discussed with my mentor and we decided it was acceptable in this case to stay as strictly within the HTML and CSS restrictions as possible for the time being.
+This page serves to provide feedback to the user when they click submit on the form element. It opens a new tab containing simple text and the navigation and footer elements to allow them to navigate to the main site from here. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
+- It was possible to trigger the same effect using just HTML by using method="GET" and action="received.html" with a target="_blank" in the form element. I also considered simply adding "target=_blank" to open a new tab with the codeinstitute page. Eventually, though I was trying to avoid the use of JavaScript in this project, I decided to use "onclick" to both use the correct method and action in the form element and open the confirmation page.
 
 ### 404 Page
 On the suggestion of my mentor, I have added a 404 error page to the site. It is very simply styled and features a button directing to the home page, with the same styling as the CTA buttons found on the main site. 
@@ -289,6 +288,7 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
 - The linear-gradient over background images to improve readability is based on the response to this [question on Stack Overflow](https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
 - The embedded google map is based on code from [Maps.ie](https://www.maps.ie/create-google-map/)
 - The code to add the 404 page is based on [this video by Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing)
+- The code for button elements behaving as a link is from [this thread on Stack Overflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link)
 
 ### Media
 - Icons for contact.html and the external links on index.html are from [Font Awesome](https://fontawesome.com)
