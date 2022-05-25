@@ -40,7 +40,7 @@
 
         <div class="contact-boxes">
             <div class="contact-form contacts">
-                <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form-details">
+                <form method="GET" action="received.html" class="contact-form-details" onsubmit="window.location.href='received.html'">
                     <h2>Sign up to help!</h2>
                     <div>
                         <label for="name">Name:</label>
@@ -68,7 +68,7 @@
                     <h3>Have anything to add?</h3>
                     <textarea id="contact-message" name="contact-message" placeholder="Have previous experience with wildlife? Have questions for us? Or just want to send a messaage of support?"></textarea>
 
-                    <input onclick="window.location.href='received.html'" type="submit" id="submit-button" value="Submit">
+                    <input type="submit" id="submit-button" value="Submit">
                 </form>
             </div>
 

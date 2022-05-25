@@ -116,8 +116,8 @@ The third page of the website contains all the relevant information that the use
 - The third element contains the location information for the organisation. This includes an iframe element with the organisation's location pinned on the map so users can easily find it.
 
 ### Received
-This page serves to provide feedback to the user when they click submit on the form element. It opens a new tab containing simple text and the navigation and footer elements to allow them to navigate to the main site from here. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
-- It was possible to trigger the same effect using just HTML by using method="GET" and action="received.html" with a target="_blank" in the form element. I also considered simply adding "target=_blank" to open a new tab with the codeinstitute page. Eventually, though I was trying to avoid the use of JavaScript in this project, I decided to use "onclick" to both use the correct method and action in the form element and open the confirmation page.
+This page serves to provide feedback to the user when they click submit on the form element. It contains simple text and the navigation and footer elements to allow users to navigate to the main site from here. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
+-  I also considered simply adding "target=_blank" to open a new tab with the codeinstitute page. It was possible to trigger the same effect using just HTML by using method="GET" and action="received.html" with a target="_blank" in the form element. I decided to use a little JavaScript to make the website feel more real without breaking form rules. Using onclick on the submit button meant the form received.html regardless of if the form was correctly filled out. Using onsubmit meant once the form was correctly completed, the user was directed to received.html.
 
 ### 404 Page
 On the suggestion of my mentor, I have added a 404 error page to the site. It is very simply styled and features a button directing to the home page, with the same styling as the CTA buttons found on the main site. 
@@ -288,7 +288,8 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
 - The linear-gradient over background images to improve readability is based on the response to this [question on Stack Overflow](https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
 - The embedded google map is based on code from [Maps.ie](https://www.maps.ie/create-google-map/)
 - The code to add the 404 page is based on [this video by Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing)
-- The code for button elements behaving as a link is from [this thread on Stack Overflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link)
+- The code for button elements behaving as a link onclick is from [this thread on Stack Overflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link)
+- The code for using onsubmit to open received.html on submission of the link is a combination of the above and [this article](https://www.w3schools.com/jsref/event_onsubmit.asp) to trigger received.html to open when the form is submitted.
 
 ### Media
 - Icons for contact.html and the external links on index.html are from [Font Awesome](https://fontawesome.com)
