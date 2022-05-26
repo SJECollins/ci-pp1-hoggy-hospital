@@ -22,6 +22,7 @@ html {
 }
 
 section {
+    width: 100%;
     max-width: 2550px;
     margin: 0 auto;
 }
@@ -119,7 +120,6 @@ nav {
 .hero-outer {
     background-color: var(--hog-brown);
     position: relative;
-    width: 100%;
 }
 
 #home-hero {
@@ -132,7 +132,6 @@ nav {
 
 .hero-image {
     height: min(75vh, 600px);
-    width: 100%;
     background: center center / cover no-repeat;
 }
 
@@ -192,7 +191,6 @@ nav {
 #why-help {
     background-color: var(--hog-brown);
     min-height: 600px;
-    width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../media/why-help-hog.webp") center center / cover no-repeat fixed;
     margin-top: 1.5rem;
 }
@@ -261,7 +259,6 @@ nav {
     align-items: center;
     gap: 1rem;
     padding: 1rem 0;
-    width: 100%;
 }
 
 .help-intro-left {
@@ -284,7 +281,6 @@ nav {
 /* Styling help-how section of help.html */
 #help-how {
     min-height: 300px;
-    width: 100%;
     background-color: var(--hog-yellow);
     padding-bottom: 2em;
 }
@@ -299,8 +295,8 @@ nav {
 }
 
 .how-box {
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -337,6 +333,7 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: auto;
 }
 
 .cta-help {
@@ -348,7 +345,6 @@ nav {
 #contact-info {
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../media/contact-hog.webp") center center/ cover no-repeat;
     min-height: 100vh;
-    width: 100%;
 }
 
 #contact-head {
@@ -466,7 +462,6 @@ footer {
     height: 5rem;
     background-color: var(--hog-brown);
     text-align: center;
-    width: 100%;
     margin-top: auto;
 }
 
@@ -589,9 +584,6 @@ footer a:hover {
     body {
         font-size: 1.5rem;
     }
-    #about-hospital {
-        width: 100%;
-    }
     .about-container {
         justify-content: space-around;
     }
@@ -604,8 +596,13 @@ footer a:hover {
     .cta-text {
         width: 250px;
     }
+    .how-box {
+        width: 400px;
+        height: 400px;
+    }
     .how-box > p {
-        padding: 1.5em 1.5em;
+        top: -410px;
+        padding: 2.5em;
     }
     #contact-map {
         padding: 1em;
