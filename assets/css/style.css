@@ -86,7 +86,7 @@ header {
 }
 
 nav {
-    min-height: 75px;
+    min-height: 4.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
