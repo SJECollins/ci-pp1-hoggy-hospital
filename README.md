@@ -59,14 +59,14 @@ The first page comprises four sections that introduce the user to the organisati
 #### Hero Image - index.html
 - The hero section contains a large image of a hedgehog overlaid by the title of the website and organisation.
 - The title features an ease-in transition when the page loads to draw the users eye.
-- The section contains a call-to-action contact button below the title. Although the contact page is easily visible on the navigation bar, the button being immediately displayed in the header means the user can find contact information quickly. The button is styled in a dark red colour taken from the hero image itself with text in white. On hover, the button's colour scheme is inverted.
+- The section contains a call-to-action contact link-button below the title. Although the contact page is easily visible on the navigation bar, the CTA being immediately displayed in the header means the user can find contact information quickly. The CTA is styled in a dark red colour taken from the hero image itself with text in white. On hover, the colour scheme is inverted.
 
   ![Index Hero](readme-docs/hog-hosp-hero.webp)
 
 #### About Section
 - The about section features three short paragraphs of text giving the user an introduction to the organisation. These paragraphs are intentionally short so as not to overload the user with information immediately on arrival and to encourage the user to keep reading. 
 - The section is styled such that on large screens the paragraphs display as a row, but wrap to fit beneath each other on smaller devices.
-- The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the same dark red colour as the CTA button in the Hero section.
+- The text contains inline links to the How To Help page and Contact Us page, where appropriate. These are styled in the same dark red colour as the CTA link-button in the Hero section.
 
 #### Why Help Hedgehogs Section
 - This section provides information to the user about the reasons animals come into the care of the organisation. This serves to provide motivation for the user to become emotionally invested in the work the organisation undertakes.
@@ -98,8 +98,8 @@ The second page of the site is similarly comprised of four sections. It focuses 
   ![How To Help](readme-docs/how-to.webp)
 
 #### CTA Section
-- At the bottom of the page is a simple call-to-action section. At this point, the user has presumably explored all the previous sections of the site and been presented with information about the organisation's work and the ways the user can help. They are invited by a question in the title and a large button element to contact the organisation.
-- The button element is styled similarly to the CTA on the index.html hero section, though slightly larger as it is the focus for the user here. When hovered over, the button style changes to give feedback to the user.
+- At the bottom of the page is a simple call-to-action section. At this point, the user has presumably explored all the previous sections of the site and been presented with information about the organisation's work and the ways the user can help. They are invited by a question in the title and a large CTA to contact the organisation.
+- The link is styled similarly to the CTA on the index.html hero section, though slightly larger as it is the focus for the user here. When hovered over, the style changes to give feedback to the user.
 
 ### Contact Page
 The third page of the website contains all the relevant information that the user may need to contact or locate the organisation. It is presented as three simple, similarly styled boxes or cards over a large background image of a hedgehog. The emergency contact always remains on top and centered horizontally. On large screens the form and location elements are displayed in a row below, with the location element wrapping below the form on small screens.
@@ -116,11 +116,11 @@ The third page of the website contains all the relevant information that the use
 - The third element contains the location information for the organisation. This includes an iframe element with the organisation's location pinned on the map so users can easily find it.
 
 ### Received
-This page serves to provide feedback to the user when they click submit on the form element. It contains simple text and the navigation and footer elements to allow users to navigate to the main site from here. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
+This page serves to provide feedback to the user when they click submit on the form element. It contains simple text, a link styled as a button to go to index.html, and the navigation and footer elements to allow users to navigate to the main site from here. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
 -  I also considered simply adding "target=_blank" to open a new tab with the codeinstitute page. It was possible to trigger the same effect using just HTML by using method="GET" and action="received.html" with a target="_blank" in the form element. I decided to use a little JavaScript to make the website feel more real without breaking form rules. Using onclick on the submit button meant the form received.html regardless of if the form was correctly filled out. Using onsubmit meant once the form was correctly completed, the user was directed to received.html.
 
 ### 404 Page
-On the suggestion of my mentor, I have added a 404 error page to the site. It is very simply styled and features a button directing to the home page, with the same styling as the CTA buttons found on the main site. 
+On the suggestion of my mentor, I have added a 404 error page to the site. It is very simply styled and features a link-button directing to the home page, with the same styling as the CTAs found on the main site. 
 
 ![404](readme-docs/404.webp)
 
@@ -148,7 +148,7 @@ Google Fonts was used to import the Raleway font to style.css to be used as the 
 
 ### Buttons and Links
 - Links in the header and footer were styled white with a green fade-in transition to provide feedback to the user when they were interacting with the links. 
-- Inline links and buttons were styled similarly to each other. It was decided on a dark red colour to style both so as not to confuse the user. The colour was chosen as it was easily readable without being too distracting. Inline links were given an increase in font weight to stand out further from surrounding text. CTA buttons and the submit button on the contact form were styled with white text on the dark red. This inverts when hovered over to provide feedback to the user that they are about to interact with an element.
+- Inline links and "buttons" were styled similarly to each other. It was decided on a dark red colour to style both so as not to confuse the user. The colour was chosen as it was easily readable without being too distracting. Inline links were given an increase in font weight to stand out further from surrounding text. CTA links and the submit button on the contact form were styled with white text on the dark red. This inverts when hovered over to provide feedback to the user that they are about to interact with an element.
 
 ### Wireframes
 Wireframes were created in Balsamiq.
@@ -249,15 +249,15 @@ The website was tested on:
   - The user is continuously presented with imagery related to the nature of the organisation that illicits a positive response in the user as they browse the site. 
   - The user always has at least one method of navigation at hand so they can find the information they require.
 - Users who are visiting the website to contact or locate the organisation.
-  - Immediately on arriving on the main page and without having to scroll there are two available elements that link to the contact page - the link to the contact page on the right of the navigation bar and the large "Contact Us" button predominantly displayed below the page heading.
+  - Immediately on arriving on the main page and without having to scroll there are two available elements that link to the contact page - the link to the contact page on the right of the navigation bar and the large "Contact Us" link predominantly displayed below the page heading.
   - The contact page contains three methods for the user to contact the organisation:
     1. Emergency contact - prominantly displayed at the top of the page to draw attention
     2. Contact form - in cases which are less urgent. For example, if a user would like to volunteer there time or if they have a question that doesn't require an immediate response.
     3. Location information - for cases where a user may need to send something by post or attend the organisation physically, such as dropping off an injured animal.
   - Also available on the website are the social media links in the footer. These can be found across all pages so users are able to contact or follow the organisation on any of their social media accounts.
-  - In the case that the user is visiting the website for another reason, but decides at some point that they would like to contact the organisation there are inline links at points in the text and another "Contact Us" button at the bottom of the Help A Hog page. 
+  - In the case that the user is visiting the website for another reason, but decides at some point that they would like to contact the organisation there are inline links at points in the text and another "Contact Us" link at the bottom of the Help A Hog page. 
 - Users who wish to support the organisation.
-  - On landing on the main page, users are presented with the "Contact Us" button which brings them to the contact form where they can register their interest in how they would like to support the organisation.
+  - On landing on the main page, users are presented with the "Contact Us" link which brings them to the contact form where they can register their interest in how they would like to support the organisation.
   - From the navbar, users can find the Help A Hog page that provides them with information about the ways they can support the organisation.
   - Inline links in other sections of the page are present to guide users to the support and contact pages.
   - The CTA section at the bottom of the Help A Hog page presents a direct call to action with its presentation, asking users directly if they are "ready to help?"
@@ -307,8 +307,7 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
 - The linear-gradient over background images to improve readability is based on the response to this [question on Stack Overflow](https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
 - The embedded google map is based on code from [Maps.ie](https://www.maps.ie/create-google-map/)
 - The code to add the 404 page is based on [this video by Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing)
-- The code for button elements behaving as a link onclick is from [this thread on Stack Overflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link)
-- The code for using onsubmit to open received.html on submission of the link is a combination of the above and [this article](https://www.w3schools.com/jsref/event_onsubmit.asp) to trigger received.html to open when the form is submitted.
+- The idea for using onsubmit to open received.html on submission of the link is a combination of [this thread on Stack Overflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link) (from when the link-buttons were initially styled this way before changing to links) and [this article](https://www.w3schools.com/jsref/event_onsubmit.asp) to trigger received.html to open when the form is submitted.
 
 ### Media
 - Icons for contact.html and the external links on index.html are from [Font Awesome](https://fontawesome.com)

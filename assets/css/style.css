@@ -61,6 +61,10 @@ a {
     font-weight: 700;
 }
 
+a:hover {
+    color: var(--hog-brown);
+}
+
 li {
     list-style: none;
 }
