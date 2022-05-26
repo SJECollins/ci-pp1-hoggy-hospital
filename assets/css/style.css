@@ -21,6 +21,11 @@ html {
     height: 100%;
 }
 
+section {
+    max-width: 2550px;
+    margin: 0 auto;
+}
+
 body {
     font-family: Raleway, Verdana, sans-serif;
     font-size: 1rem;
@@ -30,9 +35,6 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    max-width: 2550px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h1, h2, h3 {
@@ -113,6 +115,7 @@ nav {
 .hero-outer {
     background-color: var(--hog-brown);
     position: relative;
+    width: 100%;
 }
 
 #home-hero {
@@ -243,13 +246,15 @@ button:hover {
 }
 
 /* Styling help-intro section of help.html */
-.help-intro-wrapper {
+#help-intro {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
     gap: 1rem;
-    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 100%;
 }
 
 .help-intro-left {
@@ -335,6 +340,7 @@ button:hover {
 #contact-info {
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../media/contact-hog.webp") center center/ cover no-repeat;
     min-height: 100vh;
+    width: 100%;
 }
 
 #contact-head {
@@ -589,13 +595,19 @@ footer a:hover {
 
 @media (min-width: 2000px) {
     body {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+    }
+    #about-hospital {
+        width: 100%;
+    }
+    .about-container {
+        justify-content: space-around;
     }
     .about-box {
         width: 450px;
     }
-    .reasons-bg {
-        width: 400px;
+    .reasons-box {
+        width: 450px;
     }
     .cta-text {
         width: 250px;
