@@ -139,16 +139,8 @@ nav {
     left: 10%;
 }
 
-.hero-text > button {
-    padding: 0.5em 1em;
-    margin-top: 3em;
-    display: inline-block;
-    white-space: nowrap;
-}
-
-/* Button Styling */
-
-button {
+/* Link-button Styling for hero on index, cta section on help and form submit button */
+.link-button {
     background-color: var(--hog-red);
     color: var(--hog-white);
     font-size: 1.5rem;
@@ -159,10 +151,21 @@ button {
     border-radius: 10px;
 }
 
-button:hover {
+.link-button:hover {
     background-color: var(--hog-white);
     color:var(--hog-red);
-    border: 1px solid var(--hog-red);
+}
+
+.hero-text > .link-button {
+    padding: 0.5em 1em;
+    margin-top: 3em;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#submit-button {
+    margin-top: 1em;
+    float: right;
 }
 
 /* Styling about-hospital section on index.html */
@@ -326,14 +329,15 @@ button:hover {
 
 /* Styling cta section of help.html */
 #cta-help-page {
-    min-height: 150px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
 .cta-help {
     max-width: 300px;
     text-align: justify;
-    margin: 0 auto;
 }
 
 /* Styling for contact page */
@@ -423,20 +427,9 @@ button:hover {
 
 #submit-button {
     padding: 1rem 2.5rem;
-    background-color: var(--hog-red);
-    color: var(--hog-white);
     font-size: 1em;
-    font-weight: 600;
-    border: 1px solid var(--hog-red);
-    border-radius: 4px;
     margin-top: 1em;
     float: right;
-}
-
-#submit-button:hover {
-    background-color: var(--hog-white);
-    color: var(--hog-red);
-    border: 1px solid var(--hog-red);
 }
 
 #contact-map {
