@@ -448,22 +448,17 @@ nav {
     height: 300px;
 }
 
-/* Styling received.html */
-#thank-you p {
-    text-align: center;
+/* Styling received.html and 404.html */
+.redirect-page > h1 {
+    color: var(--hog-black);
 }
 
-/* Styling 404.html */
-#error-section {
-    margin: auto;
+.redirect-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#error-section > h1 {
-    color: var(--hog-black);
+    margin: auto;
 }
 
 /* Styling footer */
