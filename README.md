@@ -95,7 +95,7 @@ The second page of the site is similarly comprised of four sections. It focuses 
 - This presents the main means of help that the organisation accepts.
 - It is styled on a light background that highlights the images as important features and separates them from the sections above and below. The three images are styled to wrap on smaller devices while remaining centered on the page. Using the :hover and :active pseudoclasses, the user can interact with the images so that the image transitions to text specific to the option they are interacting with. 
 
-  ![How To Help](readme-docs/how-to.webp)
+  ![How To Help](readme-docs/how-to-boxes.webp)
 
 #### CTA Section
 - At the bottom of the page is a simple call-to-action section. At this point, the user has presumably explored all the previous sections of the site and been presented with information about the organisation's work and the ways the user can help. They are invited by a question in the title and a large CTA to contact the organisation.
