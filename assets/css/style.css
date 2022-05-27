@@ -557,6 +557,9 @@ footer a:hover {
     nav {
         padding: 0;
     }
+    .nav-links {
+        margin: 0 auto;
+    }
     .checkbox-help {
         font-size: 0.80em;
     }
