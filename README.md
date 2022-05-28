@@ -117,7 +117,7 @@ The third page of the website contains all the relevant information that the use
 
 ### Received
 This page serves to provide feedback to the user when they click submit on the form element. It contains simple text, a link styled as a button to go to index.html, and the navigation and footer elements to allow users to navigate to the main site from here. This page is not accessible through the navigation element as it is not intended for the user to see it unless they have completed the form. 
--  I also considered simply adding "target=_blank" to open a new tab with the codeinstitute page. It was possible to trigger the same effect using just HTML by using method="GET" and action="received.html" with a target="_blank" in the form element. I decided to use a little JavaScript to make the website feel more real without breaking form rules. Using onclick on the submit button meant the form received.html regardless of if the form was correctly filled out. Using onsubmit meant once the form was correctly completed, the user was directed to received.html.
+-  The form submit mimics confirmation by using method="GET" and action="received.html" in the form element to redirect to received.html.
 
 ### 404 Page
 On the suggestion of my mentor, I have added a 404 error page to the site. It is very simply styled and features a link-button directing to the home page, with the same styling as the CTAs found on the main site. 
@@ -287,6 +287,7 @@ The website was tested on:
 - Under the heading "Source", click the drop-down menu and select "main" branch.
 - The page will automatically refresh with a link to the deployed website.
 - It may not go live for a few minutes, refresh the page to update the link.
+- Once deployed, the live website will automatically update when commits are made to the main branch.
 
 The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.io/ci-pp1-hoggy-hospital)
 
