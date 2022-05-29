@@ -8,7 +8,7 @@
     --hog-green: #78a51a;
     --hog-red: #944c42;
     --hog-yellow: #f2ecd2;
-    --hog-yellow-transparent: rgba(242, 236,210, 0.7);
+    --hog-yellow-transparent: rgba(242, 236,210, 0.8);
 }
 
 * {
@@ -161,7 +161,6 @@ nav {
 
 .hero-text > .link-button {
     padding: 0.5em 1em;
-    margin-top: 3em;
     display: inline-block;
     white-space: nowrap;
 }
@@ -611,5 +610,14 @@ footer a:hover {
     }
     #contact-map {
         padding: 1em;
+    }
+}
+
+@media (max-height: 550px) { 
+    .hero-text {
+        top: 0px;
+    }
+    .hero-text > a {
+        margin-top: 0.5em;
     }
 }
