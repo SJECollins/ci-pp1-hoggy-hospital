@@ -529,7 +529,7 @@ footer a:hover {
         display: none;
     }
     .nav-links > li {
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
     nav {
         padding: 0 2%;
@@ -613,7 +613,7 @@ footer a:hover {
     }
 }
 
-@media (max-height: 550px) { 
+@media (max-height: 540px) { 
     .hero-text {
         top: 0px;
     }
