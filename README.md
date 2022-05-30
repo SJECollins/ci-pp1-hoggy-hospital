@@ -308,7 +308,6 @@ The live site can be found here: [The Hoggy Hospital](https://sjecollins.github.
 - The linear-gradient over background images to improve readability is based on the response to this [question on Stack Overflow](https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
 - The embedded google map is based on code from [Maps.ie](https://www.maps.ie/create-google-map/)
 - The code to add the 404 page is based on [this video by Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II&ab_channel=DaniKrossing)
-- The idea for using onsubmit to open received.html on submission of the link is a combination of [this thread on Stack Overflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link) (from when the link-buttons were initially styled this way before changing to links) and [this article](https://www.w3schools.com/jsref/event_onsubmit.asp) to trigger received.html to open when the form is submitted.
 
 ### Media
 - Icons for contact.html and the external links on index.html are from [Font Awesome](https://fontawesome.com)
